@@ -189,33 +189,6 @@ It assumes conflict, uncertainty, bad faith, and failure as normal conditions—
 
 ---
 
-## 7. Current Limitations (Explicit)
-
-v0.1 acknowledges:
-
-* Incomplete articulation of care, health, housing, and energy modules.
-* Lack of standardized metrics for autonomy and legitimacy.
-* Limited formalization of decision rights and escalation pathways.
-* Early-stage interface definitions between modules.
-
-These are not gaps to hide, but surfaces for future work.
-
----
-
-## 8. Direction of Travel
-
-Future versions will focus on:
-
-* Formal layer definitions and interfaces
-* Clear decision-right mappings
-* Accountability and appeal mechanisms
-* Legitimacy instrumentation
-* Forkable implementations at local and sectoral levels
-
-The goal is not universal adoption, but **usable coherence**.
-
----
-
 ## Closing Note
 
 The Autonomy Stack exists because existing governance systems no longer align with the realities they claim to manage. This project treats governance as something that can be examined, repaired, and rebuilt—without waiting for permission.
