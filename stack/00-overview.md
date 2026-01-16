@@ -46,9 +46,9 @@ The Autonomy Stack provides a way to:
 
 ---
 
-## 3. Design Principles
+## 3. Foundational Orientations
 
-The Autonomy Stack is governed by the following principles:
+The Autonomy Stack is governed by the following design axioms:
 
 1. **Autonomy is collective**
    Individual autonomy without shared infrastructure becomes a luxury good.
