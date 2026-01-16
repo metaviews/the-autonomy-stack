@@ -1,49 +1,48 @@
 # STATE
 
-This file captures the current state of the Autonomy Stack as a living system.
-
-It is intended as a point of orientation for both human readers and automated systems encountering the project in motion. It does not describe decisions, progress, or completion. Instead, it reflects what is presently stable, what is actively forming, and what remains intentionally unresolved.
+*This file captures the current posture of the Autonomy Stack. It is an orientation snapshot: what is stable enough to rely on, what is active and alive, what is unresolved, and what we are deliberately not deciding yet.*
 
 ---
 
-## Current Orientation
+## Purpose
 
-The project is presently focused on translating narrative and analytical insights from *Future of Authority* into reusable, legible patterns that can inform a governance operating system without presuming authority, hierarchy, or enforcement.
+STATE is not a changelog, roadmap, or decision register.
 
-Attention is concentrated on clarity of language, accessibility across audiences, and the careful use of technical metaphors without allowing those metaphors to dominate or exclude.
+It exists to help both humans and automated systems quickly answer:
 
----
+* What matters right now?
+* What assumptions are currently in play?
+* What is settled enough to build on?
+* What remains intentionally open?
 
-## Stable Patterns
+STATE is revised when orientation changes—not on a schedule.
 
-The following patterns are currently considered sufficiently formed to serve as structural reference points:
+## Stable Ground (true enough to rely on)
 
-- **Patterns as Translation Layer**  
-  Patterns function as the bridge between narrative insight and operational design, allowing ideas to be reused without being frozen into rules or decisions.
+* **Patterns are the translation layer.** Insights emerge in narrative form (newsletter, analysis) and are translated into reusable abstractions via patterns.
+* **The OS metaphor is intentional.** It is used because the work is meant to be encountered by both humans and automated systems.
+* **Legitimacy is central.** The project is concerned with how coordination becomes accepted, contested, or withdrawn.
+* **Design precedes authority.** Coherence is pursued before governance.
 
-- **Operating System as Metaphor, Not Mechanism**  
-  The “OS” framing is used to describe coordination, legitimacy, and interaction, not control or execution.
+## Active Signals (currently shaping direction)
 
-- **Dual-Use Legibility**  
-  Artifacts are designed to be intelligible to humans while remaining structured enough to be parsed by automated systems.
+* **Dual-use audience is a core constraint.** Artifacts must be legible to humans and parseable by machines without implying hierarchy or command.
+* **Patterns over decisions.** We are explicitly not operating a formal decision-making process; records should illuminate context, not justify outcomes.
+* **Orientation over resolution.** The system values situational awareness and posture rather than closure.
+* **Narrative → Pattern → Stack flow.** Movement from insight to abstraction to coordination is directional but non-linear.
 
----
+## Tensions We Are Sitting With
 
-## Active Tensions
+* **OS metaphor vs accessibility.** How far technical language can go without excluding non-technical readers.
+* **Structure vs openness.** Creating enough form to be legible to systems without hardening into bureaucracy.
+* **Stability vs liveliness.** Freezing insight too early risks losing nuance; waiting too long risks incoherence.
 
-The following tensions are present and unresolved, and are being held deliberately:
+These tensions are not problems to solve, but conditions to design with.
 
-- The balance between technical metaphors and plain language accessibility  
-- The desire for machine legibility without encouraging bureaucratic or authoritarian interpretations  
-- The role of memory and record-keeping without implying decision-making authority or linear progress  
+## How to Read This File
 
-These tensions are treated as generative rather than problematic.
+* Treat it as a compass, not a contract.
+* Expect it to change.
+* Use it to orient new work and new readers.
 
----
-
-
-## Reading Change Over Time
-
-This file is updated periodically to reflect shifts in orientation or stability. Changes should be read as changes in attention or understanding, not as milestones or progress indicators.
-
-Historical context is preserved through version control rather than explicit narration.
+Last updated: 2026-01-16
