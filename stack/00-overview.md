@@ -1,197 +1,160 @@
-# The Autonomy Stack (v0.1)
+# The Autonomy Stack — v0.2
 
-*A Governance Operating System*
-**Built on the Commons of Autonomy**
+## A Governance Operating System for a World in Motion
 
-## Status
+The Autonomy Stack begins from a simple recognition: governance must operate in conditions of continuous change.
 
-Version 0.1 — conceptual architecture established, modules partially implemented, interfaces under active development.
+Food systems, energy systems, media systems, care systems, and decision systems evolve at different speeds, under different pressures, and with different failure modes. When governance treats these domains as static or separable, coordination breaks down. Decisions made in one domain generate unintended consequences in others.
 
-This document defines the Autonomy Stack as it exists now. It is not a manifesto, party platform, or finished policy program. It is a reference point: a shared language for diagnosing governance failure and designing upgrades.
+The Autonomy Stack approaches this reality as an **operating system**.
 
----
+Not software, but governance software: a shared logic for how systems relate, how authority is exercised, how failures propagate, and how autonomy is preserved amid constant motion.
 
-## 1. What the Autonomy Stack Is
+Its purpose is to make autonomy—individual and collective—more achievable by improving how governance systems coordinate *without subsuming one another*. The Stack aligns systems so that power remains contestable and responsibility remains visible, even as conditions shift.
 
-The **Autonomy Stack** is a governance operating system designed to maximize **collective autonomy under conditions of uncertainty**.
-
-It treats governance not as ideology, leadership, or isolated policy decisions, but as an integrated system composed of layered infrastructure, institutions, decision protocols, and feedback loops. Like any operating system, it can be misconfigured, captured, corrupted, or upgraded.
-
-The Autonomy Stack is **built on the Commons of Autonomy**: the shared material, cognitive, and institutional conditions that make meaningful autonomy possible for people and communities. Autonomy is not assumed; it is produced, maintained, and defended collectively.
-
-The core performance metric of the Autonomy Stack is **legitimacy**.
-
-Legitimacy is understood as a renewable but exhaustible system resource: the sustained capacity of institutions to act competently, fairly, and with public consent. When legitimacy collapses, governance fails regardless of formal authority, legality, or enforcement power.
+v0.2 reflects a maturation of this intent. The work shifts from assembling concepts to stabilizing the operating logic that connects them.
 
 ---
 
-## 2. Why an Operating System Framing
+## The Stack as a Reference Architecture
 
-Most contemporary governance failures are not caused by bad intentions or missing policies. They are caused by **outdated or incompatible operating systems** that prioritize extraction, spectacle, forced consensus, and short-term optimization over resilience and care.
+The Autonomy Stack is a **reference architecture for governance in contested conditions**.
 
-In OS terms:
+It provides a way to think across systems that are normally designed, regulated, and debated in isolation. Rather than offering solutions or prescriptions, it creates a shared frame for understanding how different forms of governance interact—and how autonomy is either supported or undermined by those interactions.
 
-* Policies are applications, not foundations.
-* Institutions are services, not ends in themselves.
-* Infrastructure is political, not neutral.
-* Metrics determine behavior.
-* Power concentrates where routing and interfaces are controlled.
+As a reference architecture, the Stack helps:
 
-The Autonomy Stack provides a way to:
+* locate where governance breakdowns are occurring,
+* understand how failures in one domain propagate into others,
+* compare situations without assuming a single metric of success,
+* design responses that connect systems instead of overriding them.
 
-* Diagnose failure at the correct layer
-* Replace components without collapsing the whole system
-* Run multiple governance experiments in parallel
-* Resist capture by markets, platforms, or security logics
+The Stack is meant to be lived with over time. Its value increases as it is returned to, tested against reality, and used to notice what had previously gone unseen.
 
 ---
 
-## 3. Foundational Orientations
+## How the Stack Works
 
-The Autonomy Stack is governed by the following design axioms:
+The Autonomy Stack is organized into **layers**, understood in v0.2 as **reference axes**.
 
-1. **Autonomy is collective**
-   Individual autonomy without shared infrastructure becomes a luxury good.
+Each layer highlights a different dimension of governance. Any real-world situation can be examined across all layers at once. There is no correct entry point. Attention can begin wherever tension, breakdown, or possibility is most visible.
 
-2. **Legitimacy must be earned in public**
-   Trust is not assumed. Performance, participation, and accountability are visible.
+Because the layers are interdependent:
 
-3. **Literacy is infrastructure**
-   A society that cannot explain its systems cannot govern or defend them.
+* stress in one layer reshapes conditions in others,
+* resilience in one layer can compensate for fragility elsewhere,
+* distortions tend to travel, not remain contained.
 
-4. **Intelligence is a commons**
-   Shared situational awareness is more important than secrecy by default.
-
-5. **Pluralism over forced consensus**
-   Durable disagreement with shared rules is healthier than imposed unity.
-
-6. **Boundaries enable freedom**
-   Autonomy requires enforceable limits on extractive and coercive power.
-
-7. **Care is a system requirement, not a moral add-on**
-   Systems that exhaust people collapse.
+Reading the Stack is an act of orientation. It is a way of staying with complexity long enough to see how systems connect rather than treating symptoms in isolation.
 
 ---
 
-## 4. Stack Architecture (Current Working Model)
-
-The Autonomy Stack is composed of interdependent layers. Failure in lower layers propagates upward; corruption in upper layers degrades legitimacy throughout.
+## The Layers
 
 ### Layer 1: Material Base (Infrastructure)
 
-Food, energy, housing, logistics, and environmental systems that sustain life.
+This layer asks: *can people live at all?*
 
-Status:
+Food, energy, housing, logistics, and environmental systems form the metabolic base of society. When this base becomes insecure, every other layer becomes harder to sustain, easier to coerce, and more vulnerable to shock.
 
-* **Food Power** is the most developed module.
-* Energy, housing, and climate adaptation are partially articulated but not yet formalized.
-
-Failure mode:
-Material insecurity undermines all higher governance functions.
+Food Power is the most developed area of work here, because food is both unavoidable and highly revealing: it connects biology, ecology, culture, and political economy.
 
 ---
 
 ### Layer 2: Commons & Institutions
 
-Organizational forms that manage shared resources: co-operatives, unions, municipalities, public agencies, mutual aid networks, standards bodies.
+This layer asks: *who takes responsibility together?*
 
-Status:
+Commons and institutions are the durable containers of shared obligation. Co-operatives, unions, municipalities, mutual aid networks, public agencies, and standards bodies belong here.
 
-* Strong critique of platform substitution for public institutions.
-* Ongoing exploration of alternative institutional forms.
-
-Failure mode:
-Capture by monopolies, platforms, or managerial elites.
+This layer clarifies the difference between coordination and responsibility. Systems can coordinate through platforms while responsibility evaporates. Institutions endure when obligation remains real, enforceable, and shared.
 
 ---
 
 ### Layer 3: Legibility & Metrics
 
-What the system can see, measure, and respond to.
+This layer asks: *what counts?*
 
-Status:
+What systems can see, measure, and respond to becomes what they value. Metrics shape behavior, attention, and legitimacy.
 
-* Active work on post-market metrics.
-* Explicit rejection of GDP, engagement, and growth as governing metrics.
-
-Failure mode:
-Governing toward what is measurable rather than what matters.
+Post-market metrics work belongs here as a struggle over visibility: what society is allowed to measure, what it can meaningfully compare, and what it can defend without reducing life to output.
 
 ---
 
 ### Layer 4: Decision Systems & Authority
 
-How decisions become binding: law, norms, procurement rules, algorithms, administrative processes.
+This layer asks: *how do decisions become binding?*
 
-Status:
+Law, norms, procurement rules, algorithms, and administrative processes live here. This is where power becomes operational.
 
-* Substantial work on AI, algorithmic authority, and forced consensus.
-* Emphasis on appeal, contestation, and accountability.
-
-Failure mode:
-Opaque decision-making erodes legitimacy even when outcomes are efficient.
+This layer emphasizes contestability: decisions that affect people require explanation, appeal, and revision pathways. Algorithmic authority matters here because it scales binding decisions while reshaping who can question them.
 
 ---
 
 ### Layer 5: Knowledge & Intelligence
 
-Research, media, public inquiry, and shared situational awareness.
+This layer asks: *what do we think is happening?*
 
-Status:
+Research, media, public inquiry, and shared situational awareness shape collective reality. This layer sustains productive disagreement and enables coordination without forced consensus.
 
-* Research framed as resistance.
-* Media analyzed as a strategic governance layer.
-* Hybrid war and platform governance treated as systemic threats.
-
-Failure mode:
-Disinformation, epistemic fragmentation, and manufactured ignorance.
+In contested environments, disinformation and fragmentation function as strategic pressures on governance. Research appears here as resistance because maintaining shared reality is itself a form of defense.
 
 ---
 
 ### Layer 6: Human Capacity & Care
 
-Care systems, disability and neurodivergence inclusion, education-as-literacy, labor conditions.
+This layer asks: *can people keep going?*
 
-Status:
+Care systems, disability and neurodivergence inclusion, education-as-literacy, and labor conditions define the human operating limits of any system.
 
-* Conceptually acknowledged.
-* Not yet systematized as a full module.
-
-Failure mode:
-Burnout, exclusion, resentment, and social withdrawal.
+Burnout, withdrawal, and resentment function as system signals. This layer sets the ceiling on complexity, adaptability, and resilience.
 
 ---
 
-## 5. Implemented and Emerging Modules
+## Patterns, Signals, and Modules
 
-As of v0.1, the following modules exist in partial or full form:
+The Autonomy Stack uses multiple instruments to observe the same terrain:
 
-* **Food Power** (core material and legitimacy module)
-* **Commons of Autonomy** (foundational substrate)
-* **Media & Hybrid War Resilience**
-* **AI & Algorithmic Authority Governance**
-* **Research as Resistance**
-* **Post-Market Metrics**
-* **Participatory Civic Forms (salons, unions, dialogic media)**
+* **Layers** orient attention across structural dimensions.
+* **Patterns** describe recurring dynamics that appear across contexts.
+* **Signals** surface early indications of stress, shift, or opening.
+* **Modules** name areas where the frame has been explored deeply enough to support structured experimentation.
 
-These are not isolated topics; they are interoperable components of the same stack.
+Together they create a vocabulary for diagnosis, sensemaking, and design.
 
 ---
 
-## 6. What the Autonomy Stack Is Not
+## Legitimacy
 
-* It is not a party platform.
-* It is not a policy checklist.
-* It is not a centralized blueprint.
-* It is not a trust-based system.
+Legitimacy is an emergent property of conditions across the Stack.
 
-It assumes conflict, uncertainty, bad faith, and failure as normal conditions—and designs accordingly.
+In different situations it appears as consent, endurance, refusal, compliance, exit, or withdrawal. The Stack treats legitimacy as something to be observed and explained—an outcome of interacting layers rather than a premise.
 
 ---
 
-## Closing Note
+## What v0.2 Emphasizes
 
-The Autonomy Stack exists because existing governance systems no longer align with the realities they claim to manage. This project treats governance as something that can be examined, repaired, and rebuilt—without waiting for permission.
+v0.2 establishes the Stack as a reference architecture and clarifies how its parts relate.
 
-Version numbers will change.
-The design goal will not.
+Its focus is:
+
+* layers as reference axes,
+* interdependence and propagation,
+* patterns and signals as complementary instruments,
+* modules as a later stage of maturation.
+
+This keeps the Stack open, legible, and extensible.
+
+---
+
+## A Proceeding Constraint
+
+Future work belongs in the Autonomy Stack when it clarifies how autonomy is sustained, constrained, or lost under complex and contested conditions.
+
+This constraint protects coherence as the project grows.
+
+---
+
+## Version Note
+
+v0.2 marks the transition from assembling ideas to establishing shared orientation. It tightens definitions, strengthens the reference-frame approach, and sets the conditions for later modules and policies to emerge without hardening too early.
