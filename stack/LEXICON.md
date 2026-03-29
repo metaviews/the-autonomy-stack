@@ -1,6 +1,6 @@
 # Autonomy Stack Lexicon
 
-*Stage 1 — Foundation Layer*
+*Stage 1–2 — Foundation + Extension*
 *Last updated: 2026-03-29*
 
 ---
@@ -9,7 +9,7 @@
 
 This lexicon defines the vocabulary the Autonomy Stack uses consistently and relies on. It is not a glossary. A glossary defines words. This document maps a terrain — the relationships between concepts matter as much as the definitions themselves.
 
-**Scope.** This foundation layer covers ~65 terms drawn from the extraction corpus (5+ appearances), from Stack architecture documents, and from the two Stage 1 modules. Terms that are already fully defined as patterns include brief entries here pointing to the pattern document. All other terms receive fuller treatment.
+**Scope.** This document covers ~80 terms drawn from the extraction corpus (5+ appearances), from Stack architecture documents, and from all four Stage 1–2 modules. Terms that are already fully defined as patterns include brief entries here pointing to the pattern document. All other terms receive fuller treatment.
 
 **What this document is not.** It does not resolve conceptual disputes. Where terms are contested or used inconsistently, this lexicon names the contested versions and distinguishes between them. It does not lock vocabulary permanently. See the semantic audit protocol at the end.
 
@@ -35,7 +35,9 @@ This lexicon defines the vocabulary the Autonomy Stack uses consistently and rel
 
 **Stack Genres:** Module, Pattern, Provocation, Signal
 
-**Patterns (full definitions in `/patterns/`):** Algorithmic Authority, Care vs. Coercion, Commons Destruction, Distributed Resistance, Epistemic Warfare, Hybrid War, Institutional Weaponization, Internalized Policing, Legitimacy Drift, Manufactured Ambiguity, Material Base Sovereignty, Obedience in Advance, Platform Capture, Strategic Ambiguity, Temporal Capture
+**Commons & Institutions:** Anti-Enclosure, Commons Capture, Commons Substitution, Cooperative, Enclosure, Land Trust, Propaganda of Technique, Stewardship
+
+**Patterns (full definitions in `/patterns/`):** Algorithmic Authority, Care Infrastructure Failure, Care vs. Coercion, Collective Leadership Architecture, Commons Destruction, Distributed Resistance, Epistemic Warfare, Hybrid War, Institutional Weaponization, Internalized Policing, Legitimacy Drift, Manufactured Ambiguity, Material Base Sovereignty, Obedience in Advance, Platform Capture, Procedural Entombment, Proceduralism as Shield, Semantic Capture, Strategic Ambiguity, Temporal Capture
 
 ---
 
@@ -535,6 +537,134 @@ A governance architecture distributing authority equally among three constituenc
 
 **Temporal Capture** — The control of timing — of disclosure, of decision, of crisis response — as a mechanism of governance, foreclosing contestation by controlling when it can occur. → [patterns/temporal-capture.md](../patterns/temporal-capture.md) | *Primary layers:* 3, 4
 
+*Stage 2 additions:*
+
+**Care Infrastructure Failure** — Care-based systems collapse not because their design was wrong but because the material conditions that would make them work have been systematically destroyed. → [patterns/care-infrastructure-failure.md](../patterns/care-infrastructure-failure.md) | *Primary layers:* 1, 6
+
+**Collective Leadership Architecture** — Authority distributes across roles, protocols, and capacities rather than persons, enabling coherent collective action without a single point of capture or failure. → [patterns/collective-leadership-architecture.md](../patterns/collective-leadership-architecture.md) | *Primary layers:* 2, 4
+
+**Procedural Entombment** — Process crystallizes into permanent form, immune to revision, converting the mechanisms of accountability into the substance of permanence. → [patterns/procedural-entombment.md](../patterns/procedural-entombment.md) | *Primary layers:* 4
+
+**Proceduralism as Shield** — Process is deployed as the primary defense against substantive challenge, absorbing contestation without enabling accountability. → [patterns/proceduralism-as-shield.md](../patterns/proceduralism-as-shield.md) | *Primary layers:* 4
+
+**Semantic Capture** — The systematic replacement of governance vocabulary by technical or market language, narrowing what can be thought and contested before any formal decision is made. → [patterns/semantic-capture.md](../patterns/semantic-capture.md) | *Primary layers:* 3, 5
+
+---
+
+## Stage 2 Extended Terms
+
+*Terms introduced through the Epistemic Coordination and Commons modules.*
+
+---
+
+**Anti-Enclosure**
+
+Structural protections built into commons governance specifically to prevent conversion to private property or state monopoly. Not merely legal — a commons without political capacity to enforce anti-enclosure provisions is a commons with a declaration, not a protection. Anti-enclosure design includes: legal forms (land trusts, cooperative law, commons licensing) that make enclosure structurally difficult; monitoring for acquisition attempts and early warning systems; political relationships with allied institutions that will contest enclosure; explicit documentation of governance rights that can be invoked in legal proceedings.
+
+*Layers:* 2, 4 | *Patterns:* Commons Destruction, Material Base Sovereignty | *Related:* Enclosure, Commons, Land Trust
+
+---
+
+**Commons Capture**
+
+The takeover of commons governance by a subset of users — typically the most resourced, organized, or politically connected — who redirect the commons for their benefit rather than the whole community. Does not require formal ownership change; requires control of decision-making processes. A cooperative board dominated by its largest members is captured. An ostensibly public institution whose appointments are controlled by a single interest group is captured. Capture often begins in informal power distribution — whose voices are heard in meetings, who has time for governance, who has prior relationships with formal decision-makers.
+
+*Layers:* 2 | *Patterns:* Platform Capture, Institutional Weaponization | *Related:* Commons, Enclosure, Anti-Enclosure, Tripartite Governance
+
+---
+
+**Commons Substitution**
+
+The replacement of a commons by state provision or market provision without equivalent governance accountability — often framed as a more systematic or scalable response. The displacement of mutual aid networks by NGOs that adopt their functions while discarding their governance model is the canonical example. The result: access to the resource is maintained; governance participation is dissolved. Distinct from enclosure in that the resource remains nominally "public" or "nonprofit," but the governance relationship has been severed.
+
+*Layers:* 2, 6 | *Patterns:* Commons Destruction, Institutional Weaponization | *Related:* Commons, Mutual Aid, Care Infrastructure Failure
+
+---
+
+**Cooperative**
+
+A business or institution owned and democratically governed by its members — workers, consumers, or some combination. The governance model distributes decision-making rights to members, not to capital investors. The structural challenge: cooperatives are harder to capitalize than investor-owned firms because they cannot offer equity upside, and they make slower decisions because genuine collective governance is slower than management decision-making. Both are features: the capitalization challenge forces reliance on community investment; the decision speed difference reflects the cost of actual participation. See: Tripartite Governance.
+
+*Layers:* 2 | *Patterns:* Commons Destruction | *Related:* Commons, Tripartite Governance, Land Trust
+
+---
+
+**Enclosure**
+
+The conversion of a shared resource from commons governance to private property or state monopoly. The term comes from the historical enclosure of shared land in England and Europe, now generalized to any conversion of a governed commons to private or state extraction. Contemporary forms: platform enclosure of digital commons (social networks converting user-generated content into proprietary assets), agricultural enclosure of seed commons (proprietary seed systems replacing open seed-saving), intellectual property enclosure of the knowledge commons. Enclosure is not simply theft; it typically proceeds through legal mechanisms that declare the conversion legitimate. The political fight is often at the level of whether the mechanism is recognized as enclosure at all.
+
+*Layers:* 1, 2 | *Patterns:* Commons Destruction, Platform Capture, Material Base Sovereignty | *Related:* Commons, Anti-Enclosure, State Origin Through Destruction of Commons
+
+---
+
+**Land Trust**
+
+A governance structure that holds land in permanent community ownership while allowing individuals or organizations permanent use rights. Removes land from speculative markets by legally preventing sale at market rates; use rights (housing, farming, community facilities) can be leased long-term without the land itself being alienable. Established primarily in housing; applicable to agricultural land, urban green space, and community facility ownership. The governance challenge: land trusts require competent stewardship bodies that maintain their public benefit mandate across leadership transitions and resist political pressure to monetize the asset.
+
+*Layers:* 1, 2 | *Patterns:* Commons Destruction | *Related:* Commons, Anti-Enclosure, Cooperative
+
+---
+
+**Propaganda of Technique**
+
+A form of influence, drawn from Jacques Ellul, that is not lies or manipulation but the inevitable output of technical systems ensuring their own continuation. Technical systems generate an environment in which their own solutions appear as the only possible answers to human problems — not because anyone is deceiving anyone, but because participation in the system changes the questions that can be asked within it. The system creates the conditions under which it appears necessary. Distinct from deliberate propaganda in that no actor need intend the effect; it is a structural feature of any sufficiently dominant technical system. The cryptocurrency case is exemplary: the technical design generates the ideology of trustlessness as the natural order.
+
+*Layers:* 3, 5 | *Patterns:* Platform Capture, Epistemic Warfare, Semantic Capture | *Related:* Semantic Capture, Technical Legibility, Epistemic War
+
+---
+
+**Stewardship**
+
+The role of maintaining a shared resource or governance system without owning it — responsible for the conditions that make the resource or system function over time, accountable to those who depend on it, and not entitled to extract value for personal benefit. Distinct from ownership (which confers extraction rights) and management (which typically implies employment authority). Stewardship is the appropriate model for governing commons, public infrastructure, epistemic systems, and any resource whose value is collective rather than individual. The stewardship accountability problem: stewards exercise real authority — they shape what the system can do and who can access it — and that authority must be contestable.
+
+*Layers:* 2, 4 | *Patterns:* Material Base Sovereignty | *Related:* System Stewardship, Commons, Anti-Enclosure, Tripartite Governance
+
+---
+
+## Tier 2 Pattern Stress-Test Notes
+
+*Stage 2 review: each Tier 2 pattern identified against a concrete case from the recent corpus; provocations named; any strain documented.*
+
+---
+
+**Care vs. Coercion**
+
+*Case:* The mutual aid response to the LA wildfires demonstrates both sides. Mutual aid networks provided care without coercion — relational, fast, responsive to expressed need. Official emergency management deployed coercion-framed-as-care: mandatory evacuation orders, access restrictions, and resource distribution through bureaucratic channels that required compliance documentation. The pattern holds cleanly. The strain: the care module adds the moralization trap as a specific mechanism the pattern understates — genuinely care-based authority can also freeze contestation, not only authority that masquerades as care.
+
+*Provocations engaged:* P2 (care-based authority resisting contestation), P8 (care capacity inversion)
+
+*Status:* Pattern holds. The moralization trap distinction should be added in a future revision as a refinement of "Why It Works."
+
+---
+
+**Platform Capture**
+
+*Case:* The cryptocurrency propaganda analysis demonstrates a variant the pattern understates: capture that operates through the propaganda of technique rather than through deliberate corporate acquisition. The platform does not need to capture governance by force; the technical architecture generates the ideology that makes the platform appear natural and necessary. Crypto platforms concentrate wealth and corporate power while using liberation language — not because operators intend deception but because the technical system generates the justification automatically.
+
+*Provocations engaged:* P1 (legibility masking power — transactional legibility replaces social legibility), P5 (semantic collapse — language colonization replacing social concepts), P6 (private authority beyond contestation)
+
+*Status:* Pattern holds. Strain identified: the pattern emphasizes intentional capture; the propagation-of-technique mechanism should be added as a second pathway.
+
+---
+
+**Obedience in Advance**
+
+*Case:* Civil service adjustments anticipating Schedule F (the reclassification of federal workers) — documented in the early corpus — demonstrate the pattern precisely. Workers and institutions adjusted behavior, moderated communications, and declined to exercise legitimate oversight functions based on anticipated rather than actual directives. The pattern holds without strain.
+
+*Provocations engaged:* P4 (resilience vs. speed — collective resistance requires coordination that OIA makes impossible before resistance can form), P3 (expertise paradox — expert knowledge is suppressed by OIA before it can be formally overridden)
+
+*Status:* Pattern holds without significant strain from recent corpus.
+
+---
+
+**Institutional Weaponization**
+
+*Case:* The civil service "personal loyalty machine" documented in the looming legitimacy crisis analysis — replacing statutory competence with political loyalty, repurposing regulatory oversight against opponents — is the clearest confirmation in the recent corpus. The pattern holds and is deepened by the specific mechanism: the Victory-Legitimacy Paradox cycle, where weaponization generates legitimacy crises for both the weaponizer (who cannot govern without force) and the opposition (who views the system as irreparably compromised). The pattern's current description understates this cycle.
+
+*Provocations engaged:* P6 (private authority — the tech feudal kingmaker model is an instance of Institutional Weaponization applied to private actors), P5 (semantic collapse — "legitimate process" is captured to describe its opposite)
+
+*Status:* Pattern holds. Revision opportunity: add the Victory-Legitimacy Paradox as a downstream consequence of institutional weaponization — it is the crisis that follows successful weaponization, not just a context the pattern operates in.
+
 ---
 
 ## Semantic Audit Protocol
@@ -560,5 +690,5 @@ A governance architecture distributing authority equally among three constituenc
 
 ---
 
-*Document status: Stage 1 foundation layer — ~65 terms. Stage 2 will add module-specific vocabulary, extend cross-references, and incorporate results of the first semantic audit.*
+*Document status: Stage 1–2 — ~80 terms. Stage 3 will integrate vocabulary from the Distributed Resistance module and the agentic governance annex, and incorporate results of the first scheduled semantic audit.*
 *Last updated: 2026-03-29*

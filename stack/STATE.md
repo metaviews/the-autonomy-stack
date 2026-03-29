@@ -20,12 +20,13 @@ STATE is revised when orientation changes — not on a schedule.
 ## Stable Ground (true enough to rely on)
 
 * **Layers are dimensions of agency.** The v0.3 reframe is established: each layer describes conditions under which agency is possible, sustainable, and contestable. The Stack's purpose is to map and improve those conditions.
-* **Patterns are the translation layer.** Insights emerge in narrative form and are translated into reusable abstractions via patterns. The library now contains 15 patterns grounded in the research corpus.
+* **Patterns are the translation layer.** Insights emerge in narrative form and are translated into reusable abstractions via patterns. The library now contains 20 patterns grounded in the research corpus.
 * **The OS metaphor is intentional.** The work is designed to be encountered by both humans and automated systems.
 * **Legitimacy is central.** The project is concerned with how coordination becomes accepted, contested, or withdrawn. When legitimacy is absent, it signals that one or more dimensions of agency have been foreclosed.
 * **Design precedes authority.** Coherence is pursued before governance.
-* **Agentic computing is the operationalizing layer.** Multi-agent systems and LLM-based agents are understood as the mechanism through which the Stack's governance logic can be enacted in real conditions — not only described.
-* **The corpus is integrated.** Eighteen months of the Metaviews: Future of Authority newsletter has been extracted, audited, and used to ground the architecture. Five module candidates and eight unresolved provocations have been documented.
+* **Agentic computing is the operationalizing layer.** Multi-agent systems and LLM-based agents are understood as the mechanism through which the Stack's governance logic can be enacted in real conditions — not only described. An Agentic Governance Annex now maps how each layer is transformed by capable agentic systems and what new design requirements emerge.
+* **The corpus is integrated.** Eighteen months of the Metaviews: Future of Authority newsletter has been extracted, audited, and used to ground the architecture. Module candidates, unresolved provocations, and the pattern library have all been developed from this corpus.
+* **The roadmap has been executed.** All three maturation stages — Grounding, Extension, Operationalization — have been completed. Five modules, twenty patterns, a lexicon foundation (~80 terms), and the Agentic Governance Annex are in place.
 
 ## Active Signals (currently shaping direction)
 
@@ -33,17 +34,18 @@ STATE is revised when orientation changes — not on a schedule.
 * **Patterns over decisions.** Records should illuminate context, not justify outcomes.
 * **Orientation over resolution.** The system values situational awareness and posture rather than closure.
 * **Narrative → Pattern → Stack flow.** Movement from insight to abstraction to coordination is directional but non-linear.
-* **The agentic era introduces governance questions the Stack must address directly.** How is authority delegated to non-human agents? How does contestability function when decisions are made at machine speed? How is legibility maintained when reasoning is automated?
-* **A roadmap is being developed.** The Stack is moving from reference architecture toward operational framework. Module development, provocation resolution, and pattern maturation are the near-term priorities.
+* **The practitioner interface is the next design priority.** The framework is now mature enough to be applied. Entry documents, design toolkits, and case studies are the most valuable next artifacts — not additional modules or patterns. See ROADMAP.md for the practitioner interface deliverables still outstanding.
+* **Agentic governance is inside the framework, not deferred.** The Agentic Governance Annex closes the v0.3 gap. Governance questions about agent authority, contestability at machine speed, and ecosystem governance are now part of the framework's core structure.
 
 ## Tensions We Are Sitting With
 
 * **OS metaphor vs accessibility.** How far technical language can go without excluding non-technical readers.
 * **Structure vs openness.** Creating enough form to be legible to systems without hardening into bureaucracy.
 * **Stability vs liveliness.** Freezing insight too early risks losing nuance; waiting too long risks incoherence.
-* **The Stack must now govern what it was designed to be legible to.** Agentic systems were an anticipated audience; they are becoming potential enactors. The relationship between the framework and its operationalizing layer is unresolved.
+* **The practitioner interface is underdeveloped.** The framework can now be applied — but without entry documents, design toolkits, and case studies, it is still primarily accessible to those who helped build it. This is the primary unaddressed gap.
 * **Accelerated change compresses the governance window.** The rate of political and technological change is shortening the interval between signal and response, between orientation and action.
-* **Several Stack principles are locally incompatible under stress conditions.** See `PROVOCATIONS.md` for the full inventory. Key tensions: authority must be contestable vs. care-based authority resists contestation; legibility takes priority over expertise vs. some domains require expertise that cannot be fully legibilized; resilience takes priority over elegance vs. distributed systems cannot always move fast enough in crises.
+* **Several Stack principles are locally incompatible under stress conditions.** See `PROVOCATIONS.md` for the full inventory. Key tensions: authority must be contestable vs. care-based authority resists contestation; legibility takes priority over expertise vs. some domains require expertise that cannot be fully legibilized; resilience takes priority over elegance vs. distributed systems cannot always move fast enough in crises. These tensions are not resolved by the completed roadmap. They are permanent design conditions.
+* **The speed-contestability trade-off in agentic governance.** The Agentic Governance Annex names this but cannot resolve it: some harms from agentic systems are irreversible in practice even when they are reversible in theory. Substantive contestability (after the fact) does not fully substitute for prospective contestability (before harm occurs).
 
 ## How to Read This File
 
@@ -51,4 +53,4 @@ STATE is revised when orientation changes — not on a schedule.
 * Expect it to change.
 * Use it to orient new work and new readers.
 
-Last updated: 2026-03-28
+Last updated: 2026-03-29

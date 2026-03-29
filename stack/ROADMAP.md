@@ -307,5 +307,8 @@ Following the Stack's own principles, here is what is genuinely uncertain in thi
 
 ---
 
-*Based on: stack v0.3 | 295-file extraction corpus | 15-pattern library | 5 module candidates | 8 provocations*
+*Based on: stack v0.3 | 295-file extraction corpus | 20-pattern library | 5 modules complete | 8 provocations*
+
+*Roadmap execution status: Stages 1–3 complete. Outstanding: practitioner interface deliverables (entry document, case study format + example, design toolkit, pattern quick-reference). See STATE.md for current orientation.*
+
 *Last updated: 2026-03-29*

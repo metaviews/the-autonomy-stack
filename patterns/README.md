@@ -16,7 +16,7 @@ They exist to help others:
 
 ## Current Library
 
-The library currently contains 18 patterns, organized loosely by tier:
+The library currently contains 20 patterns, organized loosely by tier:
 
 **Tier 1 — Foundational (most evidenced, most cross-cutting):**
 Algorithmic Authority, Epistemic Warfare, Legitimacy Drift
@@ -32,6 +32,9 @@ Proceduralism as Shield, Procedural Entombment
 
 **Collective governance:**
 Collective Leadership Architecture
+
+**Epistemic & care:**
+Semantic Capture, Care Infrastructure Failure
 
 **Previously established:**
 Temporal Capture, Internalized Policing, Hybrid War
