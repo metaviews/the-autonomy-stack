@@ -5,6 +5,14 @@
 
 ---
 
+> **Status (2026-03-29): All five candidates have been developed into completed modules.**
+> See [`/stack/modules/`](modules/) for the full documents:
+> — [food-power.md](modules/food-power.md) · [care-based-infrastructure.md](modules/care-based-infrastructure.md) · [epistemic-coordination.md](modules/epistemic-coordination.md) · [commons-institutional-governance.md](modules/commons-institutional-governance.md) · [distributed-resistance.md](modules/distributed-resistance.md)
+>
+> This document is now archival — a record of the evidence base and design thinking that grounded each module before it was written. The candidate descriptions, evidence citations, and cross-module patterns remain useful as context for understanding the modules' scope and origin. Recommended sequencing was followed as documented.
+
+---
+
 ## Executive Summary
 
 The extraction corpus reveals a clear three-stage progression from Crisis Detection (Oct–Dec 2024) through Institutional Failure (Jan–Jun 2025) to Alternative Construction (Jul 2025–Mar 2026). The recent phase shows mature conceptual development and early design thinking across five distinct areas that meet the criteria for module candidacy: sufficient depth, internal coherence, analytical rigor, and actionable design potential.

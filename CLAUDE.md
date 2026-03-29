@@ -13,10 +13,19 @@ It has a dual-use audience: human readers and automated systems. Artifacts are w
 **`/stack/`** — The conceptual core.
 - `00-overview.md` — Primary architecture document (currently v0.3). The foundational claim: layers are dimensions of agency, not merely domains of governance.
 - `STATE.md` — Living orientation snapshot: what is stable, what is active, what is unresolved.
-- `MODULE-CANDIDATES.md` — Five areas mature enough for structured experimentation, with recommended sequencing.
+- `ROADMAP.md` — Roadmap for the project; all three maturation stages have been executed.
+- `LEXICON.md` — ~80 core terms with definitions and cross-references.
+- `MODULE-CANDIDATES.md` — Historical record of the five module candidates (now all completed; see `/stack/modules/`).
 - `PROVOCATIONS.md` — Eight unresolved tensions that challenge Stack assumptions; essential reading before proposing major additions.
+- `entry.md` — 2,000-word orientation for first-time readers.
+- `design-toolkit.md` — Diagnostic questions organized by layer for practitioners.
+- `pattern-quick-reference.md` — All 20 patterns in 1–2 sentences with layer mappings.
+- `agentic-governance-annex.md` — Cross-cutting analysis of how each Stack layer applies to agentic systems.
+- `case-study-template.md` + `cases/` — Template and completed case studies.
 
-**`/patterns/`** — Recurring governance dynamics distilled from practice. 15 patterns currently in the library. They describe recurrent phenomena, not rules.
+**`/stack/modules/`** — Five completed modules: `food-power.md`, `care-based-infrastructure.md`, `epistemic-coordination.md`, `commons-institutional-governance.md`, `distributed-resistance.md`.
+
+**`/patterns/`** — Recurring governance dynamics distilled from practice. 20 patterns currently in the library. They describe recurrent phenomena, not rules.
 
 **`/signals/`** — Short orientation artifacts (<200 words). Timestamped. Capture shifts in attention and emerging tensions before they are ready to become patterns.
 

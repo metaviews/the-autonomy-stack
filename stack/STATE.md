@@ -34,15 +34,16 @@ STATE is revised when orientation changes — not on a schedule.
 * **Patterns over decisions.** Records should illuminate context, not justify outcomes.
 * **Orientation over resolution.** The system values situational awareness and posture rather than closure.
 * **Narrative → Pattern → Stack flow.** Movement from insight to abstraction to coordination is directional but non-linear.
-* **The practitioner interface is the next design priority.** The framework is now mature enough to be applied. Entry documents, design toolkits, and case studies are the most valuable next artifacts — not additional modules or patterns. See ROADMAP.md for the practitioner interface deliverables still outstanding.
 * **Agentic governance is inside the framework, not deferred.** The Agentic Governance Annex closes the v0.3 gap. Governance questions about agent authority, contestability at machine speed, and ecosystem governance are now part of the framework's core structure.
+* **The practitioner interface is in place.** Entry document, design toolkit, pattern quick-reference, case study template, and one completed case study (LA wildfires mutual aid response) are all written. The framework is now accessible to readers outside the project.
 
 ## Tensions We Are Sitting With
 
 * **OS metaphor vs accessibility.** How far technical language can go without excluding non-technical readers.
 * **Structure vs openness.** Creating enough form to be legible to systems without hardening into bureaucracy.
 * **Stability vs liveliness.** Freezing insight too early risks losing nuance; waiting too long risks incoherence.
-* **The practitioner interface is underdeveloped.** The framework can now be applied — but without entry documents, design toolkits, and case studies, it is still primarily accessible to those who helped build it. This is the primary unaddressed gap.
+* **The acute/chronic distinction in care systems is underdeveloped.** The LA wildfires case study reveals that acute crisis governance and chronic recovery governance have different dynamics that the Stack does not yet fully differentiate.
+* **Upward legitimacy migration is unnamed.** The pattern library describes legitimacy drift (formal authority losing consent) but has no pattern for informal authority gaining legitimacy faster than accountability — a dynamic the LA case makes visible.
 * **Accelerated change compresses the governance window.** The rate of political and technological change is shortening the interval between signal and response, between orientation and action.
 * **Several Stack principles are locally incompatible under stress conditions.** See `PROVOCATIONS.md` for the full inventory. Key tensions: authority must be contestable vs. care-based authority resists contestation; legibility takes priority over expertise vs. some domains require expertise that cannot be fully legibilized; resilience takes priority over elegance vs. distributed systems cannot always move fast enough in crises. These tensions are not resolved by the completed roadmap. They are permanent design conditions.
 * **The speed-contestability trade-off in agentic governance.** The Agentic Governance Annex names this but cannot resolve it: some harms from agentic systems are irreversible in practice even when they are reversible in theory. Substantive contestability (after the fact) does not fully substitute for prospective contestability (before harm occurs).

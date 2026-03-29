@@ -38,16 +38,22 @@ The Autonomy Stack treats governance as a form of design.
 
 This repository is both a workshop and a record.
 
+**New to the project? Start here:** [`stack/entry.md`](stack/entry.md) — a 2,000-word orientation for first-time readers.
+
 - `/stack/`
-  The conceptual core. `00-overview.md` is the current reference architecture (v0.3). `STATE.md` captures the current posture. `MODULE-CANDIDATES.md` identifies areas ready for structured experimentation. `PROVOCATIONS.md` holds the unresolved tensions the Stack must work through.
+  The conceptual core. [`00-overview.md`](stack/00-overview.md) is the current reference architecture (v0.3). [`STATE.md`](stack/STATE.md) captures the current posture. [`LEXICON.md`](stack/LEXICON.md) defines ~80 core terms. [`PROVOCATIONS.md`](stack/PROVOCATIONS.md) holds the eight unresolved tensions the Stack must navigate. [`MODULE-CANDIDATES.md`](stack/MODULE-CANDIDATES.md) is the historical record of how the five modules were identified (all are now complete).
+
+- `/stack/modules/`
+  Five completed modules applying the Stack to specific domains: [Food Power](stack/modules/food-power.md), [Care Infrastructure](stack/modules/care-based-infrastructure.md), [Epistemic Coordination](stack/modules/epistemic-coordination.md), [Commons & Institutional Governance](stack/modules/commons-institutional-governance.md), [Distributed Resistance](stack/modules/distributed-resistance.md).
+
+- `/stack/` practitioner documents
+  [`entry.md`](stack/entry.md) — first-time reader orientation. [`design-toolkit.md`](stack/design-toolkit.md) — diagnostic questions by layer for practitioners. [`pattern-quick-reference.md`](stack/pattern-quick-reference.md) — all 20 patterns in 1–2 sentences. [`agentic-governance-annex.md`](stack/agentic-governance-annex.md) — cross-cutting analysis of governance under agentic conditions. [`cases/`](stack/cases/) — completed case studies.
 
 - `/patterns/`
-  Recurring governance dynamics distilled from practice. Patterns are discovered through the *Metaviews: Future of Authority* newsletter and stabilized here as reusable abstractions.
+  Twenty recurring governance dynamics distilled from practice. Patterns are discovered through the *Metaviews: Future of Authority* newsletter and stabilized here as reusable abstractions.
 
 - `/signals/`
   Short orientation artifacts (usually under 200 words). Timestamped. They surface shifts in attention, emerging tensions, and assumptions becoming visible — before they are ready to become patterns.
-
-Additional materials will emerge as the project grows and is tested against real conditions.
 
 ---
 
@@ -63,7 +69,9 @@ You are invited to:
 
 ## Project Status
 
-The Autonomy Stack is at v0.3. The reference architecture has been grounded in eighteen months of applied research and stress-tested against real conditions. The layers have been reframed as dimensions of agency. A pattern library, provocation inventory, and module candidates now extend the architecture toward practice.
+The Autonomy Stack has completed its first full roadmap execution across three maturation stages. The reference architecture (v0.3) has been grounded in eighteen months of applied research. Twenty patterns are documented. Five modules are complete. A lexicon (~80 terms), agentic governance annex, and full practitioner interface are in place.
+
+See [`stack/STATE.md`](stack/STATE.md) for the current orientation snapshot.
 
 The work is alive, unfinished, and deliberately open. Its value lies not in arriving at certainty, but in cultivating clarity, shared language, and the capacity to act together under conditions of uncertainty.
 

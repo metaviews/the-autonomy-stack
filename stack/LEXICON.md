@@ -9,7 +9,7 @@
 
 This lexicon defines the vocabulary the Autonomy Stack uses consistently and relies on. It is not a glossary. A glossary defines words. This document maps a terrain — the relationships between concepts matter as much as the definitions themselves.
 
-**Scope.** This document covers ~80 terms drawn from the extraction corpus (5+ appearances), from Stack architecture documents, and from all four Stage 1–2 modules. Terms that are already fully defined as patterns include brief entries here pointing to the pattern document. All other terms receive fuller treatment.
+**Scope.** This document covers ~80 terms drawn from the extraction corpus (5+ appearances), from Stack architecture documents, and from the four Stage 1–2 modules (food-power, care-based-infrastructure, epistemic-coordination, commons-institutional-governance). The Stage 3 module (distributed-resistance) and the Agentic Governance Annex are not yet fully integrated. Terms that are already fully defined as patterns include brief entries here pointing to the pattern document. All other terms receive fuller treatment.
 
 **What this document is not.** It does not resolve conceptual disputes. Where terms are contested or used inconsistently, this lexicon names the contested versions and distinguishes between them. It does not lock vocabulary permanently. See the semantic audit protocol at the end.
 

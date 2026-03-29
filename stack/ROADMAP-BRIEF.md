@@ -1,6 +1,10 @@
 # Roadmap Session Brief
 
-*Read this at the start of a new session before beginning roadmap work.*
+*This brief describes the pre-roadmap state of the Stack. It was used to initiate a session that completed all three maturation stages. The roadmap has been executed. See `ROADMAP.md` for current status and `STATE.md` for current orientation.*
+
+---
+
+*Original brief — describes the starting conditions, not the current state.*
 
 ---
 

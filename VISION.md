@@ -158,3 +158,5 @@ Nothing here is sacred.
 Clarity matters more than completeness.
 
 The purpose of this document is not to declare answers, but to **establish the conditions under which better ones can be designed**.
+
+This vision has been operationalized. Five modules, twenty patterns, and a full practitioner interface have been built from it. See [`stack/STATE.md`](stack/STATE.md) for the current orientation, and [`stack/00-overview.md`](stack/00-overview.md) for the current architecture.

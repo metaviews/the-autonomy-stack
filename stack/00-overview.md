@@ -177,6 +177,25 @@ This constraint protects coherence as the project grows.
 
 ---
 
+## Navigation
+
+**New to the Stack:** Begin with [`entry.md`](entry.md) — a 2,000-word orientation for first-time readers.
+
+**For practitioners:** [`design-toolkit.md`](design-toolkit.md) provides diagnostic questions organized by layer. [`pattern-quick-reference.md`](pattern-quick-reference.md) gives all 20 patterns with layer mappings.
+
+**For current state:** [`STATE.md`](STATE.md) is the orientation snapshot. [`ROADMAP.md`](ROADMAP.md) documents completed work and what remains open.
+
+**Modules** (five domains with full layer analysis and governance design):
+[Food Power](modules/food-power.md) · [Care Infrastructure](modules/care-based-infrastructure.md) · [Epistemic Coordination](modules/epistemic-coordination.md) · [Commons & Institutional Governance](modules/commons-institutional-governance.md) · [Distributed Resistance](modules/distributed-resistance.md)
+
+**Agentic governance:** [`agentic-governance-annex.md`](agentic-governance-annex.md) maps how each layer applies to agentic systems.
+
+**Full pattern library:** [`/patterns/`](../patterns/) — 20 patterns with 7-section structure.
+
+**Unresolved tensions:** [`PROVOCATIONS.md`](PROVOCATIONS.md) — eight tensions the Stack navigates rather than resolves.
+
+---
+
 ## Version Note
 
 v0.3 marks the integration of an extended research corpus into the Stack's architecture. The foundational reframe — layers as dimensions of agency — was latent in earlier versions but is now explicit. Layer questions have been sharpened, layer descriptions revised, and the Stack's core claim clarified.

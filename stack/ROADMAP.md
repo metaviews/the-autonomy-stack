@@ -16,15 +16,17 @@ A new collaborator reading this should be able to understand where the project i
 
 ---
 
-## Where We Are
+## Where We Were (At Roadmap Start)
 
-The Stack is at the end of a first major phase: **reference architecture**.
+*This section describes the state of the Stack at the beginning of this roadmap's execution. For current status, see STATE.md and the footer of this document.*
 
-v0.3 establishes the foundational frame — layers as dimensions of agency, each describing conditions under which autonomy is possible, sustainable, and contestable. Eighteen months of applied research corpus (the *Metaviews: Future of Authority* newsletter) has been extracted, audited, and integrated. Fifteen patterns are live. Five module candidates are documented with recommended sequencing. Eight unresolved provocations have been named.
+The Stack was at the end of a first major phase: **reference architecture**.
 
-The corpus itself suggests the trajectory: three stages — Crisis Detection (Oct–Dec 2024), Institutional Failure (Jan–Jun 2025), Alternative Construction (Jul 2025–Mar 2026). The Stack is entering its own third stage. The analytical work is in place. The question is no longer *what is happening* but *what should be built*.
+v0.3 established the foundational frame — layers as dimensions of agency, each describing conditions under which autonomy is possible, sustainable, and contestable. Eighteen months of applied research corpus (the *Metaviews: Future of Authority* newsletter) had been extracted, audited, and integrated. Fifteen patterns were live. Five module candidates were documented with recommended sequencing. Eight unresolved provocations had been named.
 
-That shift defines this roadmap.
+The corpus itself suggests the trajectory: three stages — Crisis Detection (Oct–Dec 2024), Institutional Failure (Jan–Jun 2025), Alternative Construction (Jul 2025–Mar 2026). The Stack was entering its own third stage. The analytical work was in place. The question was no longer *what is happening* but *what should be built*.
+
+That shift defined this roadmap. All three stages have been completed.
 
 ---
 
@@ -247,7 +249,7 @@ The Stack is currently legible to people who are already inside it. Stage 3 make
 
 **Work to do:**
 
-*Entry document* — A 2,000-word document that a careful first-time reader could use to orient themselves without reading everything else first. Not a summary of `00-overview.md` — a different register, for a different reader, with a different starting question.
+*Entry document* — A document that a careful first-time reader could use to orient themselves without reading everything else first. Not a summary of `00-overview.md` — a different register, for a different reader, with a different starting question.
 
 *Case study format* — A template for applying the Stack to a specific situation: a governance failure, a design challenge, a coordination problem. The format should make the diagnostic work legible — which layers are engaged, what patterns are present, what provocations are alive in the situation. One completed case study as proof-of-concept.
 
@@ -261,7 +263,7 @@ The Stack is currently legible to people who are already inside it. Stage 3 make
 
 End-of-roadmap review. Not a conclusion — a reorientation. What has the project learned that should reshape the next version of this document? What changed in conditions that the roadmap did not anticipate? Update STATE.md. Begin the next roadmap.
 
-The project does not end. The roadmap does.
+The project does not end. The current iteration of the roadmap does. This means a revised and extended roadmap needs to be created.
 
 ---
 
@@ -309,6 +311,6 @@ Following the Stack's own principles, here is what is genuinely uncertain in thi
 
 *Based on: stack v0.3 | 295-file extraction corpus | 20-pattern library | 5 modules complete | 8 provocations*
 
-*Roadmap execution status: Stages 1–3 complete. Outstanding: practitioner interface deliverables (entry document, case study format + example, design toolkit, pattern quick-reference). See STATE.md for current orientation.*
+*Roadmap execution status: All three stages complete, including practitioner interface. Delivered: 5 modules, 20 patterns, lexicon (~80 terms), agentic governance annex, entry document, design toolkit, pattern quick-reference, case study template + LA wildfires example. See STATE.md for current orientation.*
 
 *Last updated: 2026-03-29*

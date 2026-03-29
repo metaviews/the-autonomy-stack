@@ -103,3 +103,5 @@ This document represents **v0.1**.
 These principles are expected to be tested, strained, and contested.
 Revisions must strengthen constraints, not soften them.
 
+These principles are in active tension with each other under stress conditions. Eight specific instances of that tension — where principles conflict directly — are documented in [`PROVOCATIONS.md`](stack/PROVOCATIONS.md).
+

@@ -1,3 +1,17 @@
+# v0.4 — Roadmap Execution (Stages 1–3)
+
+Completed full roadmap execution across three maturation stages.
+
+**Stage 1 — Grounding:** Food Power module and Care Infrastructure module written. Pattern library extended from 15 to 18 with Proceduralism as Shield, Procedural Entombment, and Collective Leadership Architecture. Lexicon foundation established (~65 terms, extended to ~80 in Stage 2).
+
+**Stage 2 — Extension:** Epistemic Coordination module and Commons & Institutional Governance module written. Semantic Capture and Care Infrastructure Failure patterns added (library now 20 patterns). Vocabulary consolidated; Tier 2 patterns stress-tested with corpus cases. Three-layer authority model (operational/epistemic/participatory) developed.
+
+**Stage 3 — Operationalization:** Distributed Resistance module written. Agentic Governance Annex written — cross-cutting document mapping how each Stack layer applies to agentic systems and what new governance requirements emerge. Full practitioner interface delivered: entry document, design toolkit, pattern quick-reference, case study template, completed case study (LA wildfires mutual aid response).
+
+Key conceptual developments: technical vs. epistemic legibility; care-as-support vs. care-as-authority; orientation scarcity vs. information scarcity; three-layer authority model; governance by neglect; shared endurance; harmony as coordination principle; the persistence problem in distributed resistance; six agentic governance design requirements.
+
+---
+
 # v0.3
 
 Introduced foundational reframe: the Stack's layers are dimensions of agency, not merely domains of governance. The Stack now explicitly maps the conditions under which individual and collective agency is possible, sustainable, and contestable.
