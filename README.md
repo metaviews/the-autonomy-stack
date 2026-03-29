@@ -38,10 +38,14 @@ The Autonomy Stack treats governance as a form of design.
 
 This repository is both a workshop and a record.
 
-- `/stack/`  
-  The conceptual core of the Autonomy Stack. These documents develop the architecture, principles, and design ethic of the governance OS.
+- `/stack/`
+  The conceptual core. `00-overview.md` is the current reference architecture (v0.3). `STATE.md` captures the current posture. `MODULE-CANDIDATES.md` identifies areas ready for structured experimentation. `PROVOCATIONS.md` holds the unresolved tensions the Stack must work through.
 
-  - `00-overview.md` — The current high-level framing and vision
+- `/patterns/`
+  Recurring governance dynamics distilled from practice. Patterns are discovered through the *Metaviews: Future of Authority* newsletter and stabilized here as reusable abstractions.
+
+- `/signals/`
+  Short orientation artifacts (usually under 200 words). Timestamped. They surface shifts in attention, emerging tensions, and assumptions becoming visible — before they are ready to become patterns.
 
 Additional materials will emerge as the project grows and is tested against real conditions.
 
@@ -59,7 +63,9 @@ You are invited to:
 
 ## Project Status
 
-The Autonomy Stack is alive, unfinished, and deliberately open. Its value lies not in arriving at certainty, but in cultivating clarity, shared language, and the capacity to act together under conditions of uncertainty.
+The Autonomy Stack is at v0.3. The reference architecture has been grounded in eighteen months of applied research and stress-tested against real conditions. The layers have been reframed as dimensions of agency. A pattern library, provocation inventory, and module candidates now extend the architecture toward practice.
 
-*If authority shapes our lives,  
+The work is alive, unfinished, and deliberately open. Its value lies not in arriving at certainty, but in cultivating clarity, shared language, and the capacity to act together under conditions of uncertainty.
+
+*If authority shapes our lives,
 then designing it is a responsibility worth taking seriously.*
