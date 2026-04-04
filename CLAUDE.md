@@ -31,9 +31,16 @@ It has a dual-use audience: human readers and automated systems. Artifacts are w
 
 **`/sources/`** — Source material. `metaviews.substack.com/` contains the full Metaviews: Future of Authority newsletter archive (296 issues, Oct 2024–Mar 2026). `extractions/` contains structured per-issue extractions and `AUDIT.md` — a full corpus analysis.
 
+**`/stack/cases/`** — Case studies and candidate workflow.
+- `candidates.md` — LLM-generated candidate list from corpus scan. Mark with `[APPROVED]` to trigger generation.
+- `case-study-template.md` — Template structure for new case studies.
+- `la-wildfires-mutual-aid.md` — First completed case study (proof-of-concept).
+
 **`/scripts/`** — Processing pipeline.
 - `extract.py` — Processes newsletter HTML → structured extractions (signals, pattern candidates, stack material, concepts, provocations). Uses OpenRouter via `openai` SDK. Config in `.env`.
 - `generate_patterns.py` — Synthesizes patterns from extraction corpus. Same infrastructure as extract.py.
+- `find_cases.py` — Scans extraction corpus (and optionally user-provided sources) to identify case study candidates. Writes `stack/cases/candidates.md` for review. Supports `--query` for user-directed search.
+- `write_cases.py` — Generates full case study documents from approved candidates in `candidates.md`. Supports batch generation.
 - `requirements.txt` — `openai`, `python-dotenv`.
 
 Supporting root documents: `PRINCIPLES.md` (8 design constraints), `VISION.md` (v0.1 origin), `CHANGELOG.md`.
@@ -61,24 +68,35 @@ Each layer is a dimension of agency — a question about what makes autonomy pos
 
 ## Scripts
 
-Both scripts load `.env` from repo root for `OPENROUTER_API_KEY` and `OPENROUTER_MODEL`. Progress is checkpointed after each item — safe to interrupt and resume.
+All scripts load `.env` from repo root for `OPENROUTER_API_KEY` and `OPENROUTER_MODEL`. Progress is checkpointed after each item — safe to interrupt and resume.
 
 ```bash
 pip install -r scripts/requirements.txt
+
+# Extraction pipeline
 python scripts/extract.py --limit 10      # test batch
 python scripts/extract.py                 # full run
+
+# Pattern generation
 python scripts/generate_patterns.py       # generate all patterns
 python scripts/generate_patterns.py --pattern "Pattern Name"  # single pattern
+
+# Case study candidate discovery
+python scripts/find_cases.py              # scan corpus for candidates
+python scripts/find_cases.py --limit 10   # top 10 only
+python scripts/find_cases.py --query "..."  # user-directed search
+python scripts/find_cases.py --sources file.md  # add user-provided sources
+
+# Case study generation (from approved candidates in stack/cases/candidates.md)
+python scripts/write_cases.py             # generate all approved
+python scripts/write_cases.py --case "Name"   # one specific
+python scripts/write_cases.py --cases "A" "B" # multiple
 ```
-
-## Content Principles
-
-All work is constrained by `PRINCIPLES.md`. The proceeding constraint: new work belongs in the Autonomy Stack only when it clarifies how autonomy — understood as the conditions for individual and collective agency — is sustained, constrained, or lost under complex and contested conditions.
-
-Before proposing major structural changes, read `PROVOCATIONS.md`. Many apparent gaps are already named as unresolved tensions requiring framework development, not quick fixes.
 
 ## Content Flow
 
 **narrative (newsletter) → extraction → signal → pattern → stack layer → module**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↓
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**case study → applied testing**
 
-Movement is directional but non-linear. The corpus pipeline (extract.py) handles the newsletter → extraction step. From there, extractions inform signals, patterns, and layer revisions through editorial judgment, not automation.
+Movement is directional but non-linear. The corpus pipeline (extract.py) handles the newsletter → extraction step. Case study candidates are discovered from the corpus via find_cases.py, reviewed in candidates.md, and generated via write_cases.py. From there, extractions inform signals, patterns, and layer revisions through editorial judgment, not automation.
