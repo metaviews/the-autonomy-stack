@@ -43,6 +43,7 @@ Create the minimum structure agents need to use the Stack accurately.
 - Pattern and provocation indexes in JSON or YAML
 - A short `stack/tools/README.md` explaining how agents should use the tools
 - `sources/philosophers/` as the first compiled knowledge corpus focused on autonomy
+- `stack/indexes/corpora.yaml` and `stack/indexes/compiled-knowledge-usage.md` for source-corpus routing
 
 **Review question:** Can an agent identify which Stack concepts apply to a governance situation without inventing structure that is not in the repo?
 
@@ -144,6 +145,8 @@ The second near-term milestone is the **Philosopher Autonomy Corpus** in `source
 2. Maintain thinker, concept, and tension pages through agent-readable schema conventions.
 3. Seed autonomy-focused thinkers beginning with Cornelius Castoriadis.
 4. Use the corpus to test Compiled Knowledge Infrastructure as a Stack element.
+
+Current status: seeded with 28 thinkers, 18 concepts, and 14 tensions, with an intentionally stronger center of gravity around anarchist, anarchist-adjacent, abolitionist, Indigenous, feminist, and commons traditions. Next work is to connect corpus concepts to governance tools and future validation scripts.
 
 ---
 

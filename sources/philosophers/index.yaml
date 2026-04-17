@@ -217,56 +217,104 @@ planned_waves:
         name: Isaiah Berlin
         tradition_tags: [liberal-autonomy, negative-liberty, positive-liberty]
   - wave: 2
-    status: planned
+    status: seeded
     purpose: Second wave broadening anti-authoritarian, abolitionist, Indigenous, feminist, and democratic autonomy traditions.
     thinkers:
       - thinker_id: john-stuart-mill
         name: John Stuart Mill
+        status: seeded
+        page: wiki/thinkers/john-stuart-mill.md
+        raw_sources: [raw/wave-2-source-records.md]
         tradition_tags: [liberal-autonomy, self-development]
       - thinker_id: erich-fromm
         name: Erich Fromm
+        status: seeded
+        page: wiki/thinkers/erich-fromm.md
+        raw_sources: [raw/wave-2-source-records.md]
         tradition_tags: [critical-autonomy, authoritarianism, social-character]
       - thinker_id: simone-weil
         name: Simone Weil
+        status: seeded
+        page: wiki/thinkers/simone-weil.md
+        raw_sources: [raw/wave-2-source-records.md]
         tradition_tags: [attention, obligation, force, rootedness]
       - thinker_id: paulo-freire
         name: Paulo Freire
+        status: seeded
+        page: wiki/thinkers/paulo-freire.md
+        raw_sources: [raw/wave-2-source-records.md]
         tradition_tags: [critical-pedagogy, liberation, conscientization]
       - thinker_id: elinor-ostrom
         name: Elinor Ostrom
+        status: seeded
+        page: wiki/thinkers/elinor-ostrom.md
+        raw_sources: [raw/wave-2-source-records.md]
         tradition_tags: [commons, self-governance, institutional-diversity]
       - thinker_id: pierre-joseph-proudhon
         name: Pierre-Joseph Proudhon
+        status: seeded
+        page: wiki/thinkers/pierre-joseph-proudhon.md
+        raw_sources: [raw/wave-2-source-records.md]
         tradition_tags: [anarchist, mutualism, federalism]
       - thinker_id: mikhail-bakunin
         name: Mikhail Bakunin
+        status: seeded
+        page: wiki/thinkers/mikhail-bakunin.md
+        raw_sources: [raw/wave-2-source-records.md]
         tradition_tags: [anarchist, anti-statism, revolutionary-federalism]
       - thinker_id: errico-malatesta
         name: Errico Malatesta
+        status: seeded
+        page: wiki/thinkers/errico-malatesta.md
+        raw_sources: [raw/wave-2-source-records.md]
         tradition_tags: [anarchist, organization, free-association]
       - thinker_id: voltairine-de-cleyre
         name: Voltairine de Cleyre
+        status: seeded
+        page: wiki/thinkers/voltairine-de-cleyre.md
+        raw_sources: [raw/wave-2-source-records.md]
         tradition_tags: [anarchist, feminist-autonomy, anti-authoritarian-ethics]
       - thinker_id: colin-ward
         name: Colin Ward
+        status: seeded
+        page: wiki/thinkers/colin-ward.md
+        raw_sources: [raw/wave-2-source-records.md]
         tradition_tags: [anarchist, everyday-anarchy, mutual-aid]
       - thinker_id: dean-spade
         name: Dean Spade
+        status: seeded
+        page: wiki/thinkers/dean-spade.md
+        raw_sources: [raw/wave-2-source-records.md]
         tradition_tags: [abolitionist, mutual-aid, anti-carceral]
       - thinker_id: ruth-wilson-gilmore
         name: Ruth Wilson Gilmore
+        status: seeded
+        page: wiki/thinkers/ruth-wilson-gilmore.md
+        raw_sources: [raw/wave-2-source-records.md]
         tradition_tags: [abolitionist, organized-abandonment, anti-carceral]
       - thinker_id: leanne-betasamosake-simpson
         name: Leanne Betasamosake Simpson
+        status: seeded
+        page: wiki/thinkers/leanne-betasamosake-simpson.md
+        raw_sources: [raw/wave-2-source-records.md]
         tradition_tags: [indigenous-resurgence, land-based-governance, refusal]
       - thinker_id: glen-coulthard
         name: Glen Coulthard
+        status: seeded
+        page: wiki/thinkers/glen-coulthard.md
+        raw_sources: [raw/wave-2-source-records.md]
         tradition_tags: [indigenous-resurgence, recognition-critique, grounded-normativity]
       - thinker_id: audra-simpson
         name: Audra Simpson
+        status: seeded
+        page: wiki/thinkers/audra-simpson.md
+        raw_sources: [raw/wave-2-source-records.md]
         tradition_tags: [indigenous-resurgence, refusal, sovereignty]
       - thinker_id: silvia-federici
         name: Silvia Federici
+        status: seeded
+        page: wiki/thinkers/silvia-federici.md
+        raw_sources: [raw/wave-2-source-records.md]
         tradition_tags: [feminist-autonomy, commons, reproductive-labor]
 candidate_pool:
   status: preserve-for-future-waves
@@ -478,6 +526,30 @@ concepts:
   - concept_id: subjectivation
     status: seeded
     page: wiki/concepts/subjectivation.md
+  - concept_id: self-development
+    status: seeded
+    page: wiki/concepts/self-development.md
+  - concept_id: conscientization
+    status: seeded
+    page: wiki/concepts/conscientization.md
+  - concept_id: commons-self-governance
+    status: seeded
+    page: wiki/concepts/commons-self-governance.md
+  - concept_id: free-association
+    status: seeded
+    page: wiki/concepts/free-association.md
+  - concept_id: abolition
+    status: seeded
+    page: wiki/concepts/abolition.md
+  - concept_id: refusal
+    status: seeded
+    page: wiki/concepts/refusal.md
+  - concept_id: reproductive-commons
+    status: seeded
+    page: wiki/concepts/reproductive-commons.md
+  - concept_id: rootedness
+    status: seeded
+    page: wiki/concepts/rootedness.md
 tensions:
   - tension_id: autonomy-vs-heteronomy
     status: seeded
@@ -505,3 +577,21 @@ tensions:
   - tension_id: cooperation-vs-coercion
     status: seeded
     page: wiki/tensions/cooperation-vs-coercion.md
+  - tension_id: freedom-vs-security
+    status: seeded
+    page: wiki/tensions/freedom-vs-security.md
+  - tension_id: education-vs-domestication
+    status: seeded
+    page: wiki/tensions/education-vs-domestication.md
+  - tension_id: commons-vs-enclosure
+    status: seeded
+    page: wiki/tensions/commons-vs-enclosure.md
+  - tension_id: recognition-vs-resurgence
+    status: seeded
+    page: wiki/tensions/recognition-vs-resurgence.md
+  - tension_id: care-vs-charity
+    status: seeded
+    page: wiki/tensions/care-vs-charity.md
+  - tension_id: organization-vs-domination
+    status: seeded
+    page: wiki/tensions/organization-vs-domination.md

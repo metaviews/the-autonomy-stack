@@ -7,6 +7,8 @@ related_docs:
   - ../agentic-governance-annex.md
   - ../modules/epistemic-coordination.md
   - ../PROVOCATIONS.md
+  - ../indexes/compiled-knowledge-usage.md
+  - ../../sources/philosophers/index.yaml
 ---
 
 # Agentic Governance Toolkit
@@ -38,6 +40,19 @@ Use the tools before an agent takes action that could affect access, allocation,
 - If an action is practically irreversible, slow down or refuse delegation until review is available.
 - If affected people cannot contest an output, do not describe the process as accountable.
 - If a reasoning trace cannot be produced, do not treat the output as authority-bearing.
+- If applying autonomy, authority, care, commons, refusal, or abolition concepts, consult the relevant source corpus and preserve the difference between source claim, synthesis, and Stack application.
+
+## Source Corpus Use
+
+Use [compiled-knowledge-usage.md](../indexes/compiled-knowledge-usage.md) before importing concepts from source corpora into a governance tool. The current autonomy theory corpus is [sources/philosophers](../../sources/philosophers/index.yaml).
+
+For agentic governance work, the corpus is most useful when a tool needs to name:
+
+- what kind of autonomy is at stake;
+- whether support is care, charity, mutual aid, or dependency;
+- when legibility becomes domination;
+- whether recognition, refusal, or contestation is the right governance posture;
+- what tensions should remain open rather than be resolved by automation.
 
 ## Example
 

@@ -38,3 +38,7 @@ It follows a Compiled Knowledge Infrastructure pattern:
 - `index.yaml` gives agents a lightweight routing layer.
 
 Compiled pages must distinguish source claims, interpretive synthesis, and Stack application.
+
+Current seeded scope: 28 thinker pages, 18 concept pages, and 14 tension pages.
+
+Agents should begin with `philosophers/index.yaml`, use `wiki/` for orientation and cross-reference routing, and consult `raw/` before making source claims.

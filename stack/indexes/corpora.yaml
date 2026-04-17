@@ -1,0 +1,36 @@
+index_id: source-corpora
+title: Source Corpora
+status: draft
+primary_audience: agents
+purpose: Route agents to source-derived knowledge bases without allowing indexes to replace source review.
+corpora:
+  - corpus_id: metaviews-future-of-authority
+    title: Metaviews: Future of Authority
+    status: primary-source-corpus
+    path: ../../sources/metaviews.substack.com/posts/
+    extraction_path: ../../sources/extractions/
+    source_type: newsletter-export
+    current_role: Grounding corpus for Stack patterns, modules, provocations, and case material.
+    agent_use:
+      - Use extracted markdown for routing and synthesis.
+      - Return to raw HTML when source fidelity matters.
+      - Do not treat extraction categories as final interpretation.
+    related_layers: [L2, L3, L4, L5, L6]
+  - corpus_id: philosophers-of-autonomy
+    title: Philosophers of Autonomy
+    status: draft
+    path: ../../sources/philosophers/
+    index_path: ../../sources/philosophers/index.yaml
+    schema_path: ../../sources/philosophers/schema.md
+    source_type: compiled-knowledge-infrastructure
+    current_role: Autonomy, authority, self-governance, and anti-authoritarian theory corpus for agentic governance reasoning.
+    current_counts:
+      thinkers: 28
+      concepts: 18
+      tensions: 14
+    agent_use:
+      - Start with index.yaml for routing.
+      - Read raw source records before making source claims.
+      - Use wiki pages for synthesis, cross-references, and Stack application.
+      - Preserve the distinction between source claim, interpretive synthesis, and Stack application.
+    related_layers: [L1, L2, L3, L4, L5, L6]

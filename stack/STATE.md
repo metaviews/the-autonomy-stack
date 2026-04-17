@@ -37,6 +37,7 @@ STATE is revised when orientation changes — not on a schedule.
 * **Narrative → Pattern → Stack flow.** Movement from insight to abstraction to coordination is directional but non-linear.
 * **Agentic governance is inside the framework, not deferred.** The Agentic Governance Annex closes the v0.3 gap. Governance questions about agent authority, contestability at machine speed, and ecosystem governance are now part of the framework's core structure.
 * **Agentic governance tooling is the next roadmap direction.** The next phase should translate the Agentic Governance Annex into tools agents can use and be governed by: authority cards, delegability reviews, contestability protocols, reasoning trace standards, ecosystem audits, and validation mechanisms.
+* **Compiled Knowledge Infrastructure is now being tested.** `sources/philosophers/` is the first agent-maintained compiled knowledge corpus: raw source records, wiki synthesis, schema conventions, and a manifest for routing autonomy-related theory into Stack applications.
 * **The practitioner interface is in place.** Entry document, design toolkit, pattern quick-reference, case study template, and one completed case study (LA wildfires mutual aid response) are all written. The framework is now accessible to readers outside the project.
 
 ## Tensions We Are Sitting With
@@ -50,6 +51,7 @@ STATE is revised when orientation changes — not on a schedule.
 * **Several Stack principles are locally incompatible under stress conditions.** See `PROVOCATIONS.md` for the full inventory. Key tensions: authority must be contestable vs. care-based authority resists contestation; legibility takes priority over expertise vs. some domains require expertise that cannot be fully legibilized; resilience takes priority over elegance vs. distributed systems cannot always move fast enough in crises. These tensions are not resolved by the completed roadmap. They are permanent design conditions.
 * **The speed-contestability trade-off in agentic governance.** The Agentic Governance Annex names this but cannot resolve it: some harms from agentic systems are irreversible in practice even when they are reversible in theory. Substantive contestability (after the fact) does not fully substitute for prospective contestability (before harm occurs).
 * **Agent-legibility can become compliance theater.** Tools designed for agents may become structured enough to satisfy automated checks while failing to preserve real accountability, contestability, or judgment.
+* **Compiled synthesis can harden into false source authority.** The philosopher corpus is useful because it lets agents route through autonomy traditions, but every use must preserve the distinction between source claim, interpretive synthesis, and Stack application.
 
 ## How to Read This File
 
