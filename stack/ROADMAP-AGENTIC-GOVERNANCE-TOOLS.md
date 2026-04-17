@@ -125,7 +125,7 @@ Make the tools usable inside agent workflows.
 
 ## Near-Term Priority
 
-The first practical milestone is a small, coherent **Agentic Governance Toolkit** in `stack/tools/`:
+The first practical milestone is a small, coherent **Agentic Governance Toolkit** in `stack/tools/`, supported by a shared vocabulary and lightweight `index.yaml`:
 
 1. Agent Authority Card
 2. Delegability Review

@@ -71,7 +71,7 @@ You are invited to:
 
 The Autonomy Stack has completed its first full roadmap execution across three maturation stages. The reference architecture (v0.3) has been grounded in eighteen months of applied research. Twenty patterns are documented. Five modules are complete. A lexicon (~80 terms), agentic governance annex, and full practitioner interface are in place.
 
-The next roadmap direction is agentic governance tooling: making the framework usable by agents that build from open-source materials while preserving human accountability and contestability. The first draft toolkit is in [`stack/tools/`](stack/tools/). See [`stack/ROADMAP-AGENTIC-GOVERNANCE-TOOLS.md`](stack/ROADMAP-AGENTIC-GOVERNANCE-TOOLS.md) and [`stack/STATE.md`](stack/STATE.md) for the current orientation snapshot.
+The next roadmap direction is agentic governance tooling: making the framework usable by agents that build from open-source materials while preserving human accountability and contestability. The first draft toolkit is in [`stack/tools/`](stack/tools/), with an agent-readable [`index.yaml`](stack/tools/index.yaml). See [`stack/ROADMAP-AGENTIC-GOVERNANCE-TOOLS.md`](stack/ROADMAP-AGENTIC-GOVERNANCE-TOOLS.md) and [`stack/STATE.md`](stack/STATE.md) for the current orientation snapshot.
 
 The work is alive, unfinished, and deliberately open. Its value lies not in arriving at certainty, but in cultivating clarity, shared language, and the capacity to act together under conditions of uncertainty.
 

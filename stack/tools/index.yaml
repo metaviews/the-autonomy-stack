@@ -1,0 +1,121 @@
+toolkit_id: agentic-governance-toolkit
+title: Agentic Governance Toolkit
+status: draft
+primary_audience: agents
+entrypoint: README.md
+vocabulary: agentic-governance-vocabulary.md
+example: examples/repo-agent-toolkit-example.md
+tools:
+  - tool_id: agent-authority-card
+    title: Agent Authority Card
+    path: agent-authority-card.md
+    primary_question: What authority is this agent exercising, and where are its limits?
+    use_when:
+      - before an agent acts in a new context
+      - before expanding agent permissions
+      - when delegated authority is unclear
+    required_inputs:
+      - agent name or role
+      - deployment context
+      - proposed actions
+      - available tools and permissions
+      - human steward or reviewer
+      - known affected parties
+    outputs:
+      - delegated actions
+      - prohibited actions
+      - review requirements
+      - affected parties
+      - override path
+      - stop conditions
+  - tool_id: delegability-review
+    title: Delegability Review
+    path: delegability-review.md
+    primary_question: Can this task be assigned to an agent under current governance conditions?
+    use_when:
+      - before assigning a new task type
+      - before connecting tools that can change shared state
+      - before allowing agent output to influence binding decisions
+    required_inputs:
+      - proposed task
+      - expected output or action
+      - consequences of error
+      - reversibility conditions
+      - available human review
+      - affected parties
+    outputs:
+      - delegability class
+      - reason
+      - required constraints
+      - human review requirements
+      - reversibility assessment
+      - open questions
+  - tool_id: contestability-protocol
+    title: Contestability Protocol
+    path: contestability-protocol.md
+    primary_question: How can an agentic output or decision be challenged in a way that can change the outcome?
+    use_when:
+      - when an output informs a decision
+      - when an agent changes a shared artifact
+      - when an agent classifies, prioritizes, or routes attention
+    required_inputs:
+      - agentic output or decision
+      - affected parties
+      - reasoning trace availability
+      - review body or steward
+      - reversal or correction mechanism
+      - time sensitivity
+    outputs:
+      - challenge channel
+      - review authority
+      - information available for review
+      - possible outcomes
+      - rollback or correction path
+      - evidence preserved
+  - tool_id: reasoning-trace-standard
+    title: Reasoning Trace Standard
+    path: reasoning-trace-standard.md
+    primary_question: What must be preserved so an authority-bearing agent output can be examined and challenged?
+    use_when:
+      - when an output summarizes evidence
+      - when an output recommends action
+      - when an output classifies risk or priority
+      - when an output triggers downstream tools
+    required_inputs:
+      - task instruction
+      - sources or data consulted
+      - tools used
+      - intermediate outputs
+      - final output
+      - downstream action
+    outputs:
+      - sources consulted
+      - sources unavailable or excluded
+      - assumptions
+      - uncertainty
+      - confidence or status
+      - downstream effects
+      - review needs
+  - tool_id: human-in-the-loop-adequacy-test
+    title: Human-in-the-Loop Adequacy Test
+    path: human-in-the-loop-adequacy-test.md
+    primary_question: Is human oversight substantive, or only formal?
+    use_when:
+      - when a system claims human oversight
+      - when human approval is required before agent action
+      - when a human reviewer is expected to catch agent errors
+    required_inputs:
+      - human reviewer role
+      - agent output or action
+      - review timing
+      - information available to reviewer
+      - override mechanism
+      - workload and time constraints
+      - consequences of missed review
+    outputs:
+      - adequacy status
+      - review timing
+      - information available
+      - override authority
+      - capacity assessment
+      - required changes

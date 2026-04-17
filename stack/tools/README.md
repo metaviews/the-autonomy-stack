@@ -15,6 +15,11 @@ This toolkit helps agents diagnose their own authority, limits, reasoning, and r
 
 The tools are diagnostic. They do not certify that an agentic system is safe, legitimate, or compliant. They surface what is known, what is delegated, what is contestable, and where human judgment is required.
 
+## Agent-Readable Files
+
+- [index.yaml](index.yaml) lists the tools, when to use them, required inputs, and expected outputs.
+- [agentic-governance-vocabulary.md](agentic-governance-vocabulary.md) defines the terms agents should use consistently when applying the toolkit.
+
 ## Use Sequence
 
 1. **[Agent Authority Card](agent-authority-card.md)** - name what authority the agent is exercising.
