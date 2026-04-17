@@ -23,6 +23,7 @@ related_docs:
   - agent-ecosystem-audit.md
   - agent-authority-card.md
   - human-in-the-loop-adequacy-test.md
+  - authority-graph-schema.md
 ---
 
 # Stewardship Accountability Register

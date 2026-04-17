@@ -24,6 +24,7 @@ related_docs:
   - agent-authority-card.md
   - contestability-protocol.md
   - reasoning-trace-standard.md
+  - authority-graph-schema.md
 ---
 
 # Agent Ecosystem Audit
@@ -101,7 +102,7 @@ open_questions:
 
 ## Agent Use Protocol
 
-Audit the ecosystem as a system, not as a list of isolated agents. If a component's output cannot be understood without another component's retrieval, synthesis, memory, or action, treat accountability as distributed. Use the audit to determine where more specific tools are needed: [Agent Authority Card](agent-authority-card.md), [Reasoning Trace Standard](reasoning-trace-standard.md), [Reversibility Map](reversibility-map.md), and [Contestability Protocol](contestability-protocol.md).
+Audit the ecosystem as a system, not as a list of isolated agents. If a component's output cannot be understood without another component's retrieval, synthesis, memory, or action, treat accountability as distributed. Use the audit to determine where more specific tools are needed: [Agent Authority Card](agent-authority-card.md), [Reasoning Trace Standard](reasoning-trace-standard.md), [Reversibility Map](reversibility-map.md), and [Contestability Protocol](contestability-protocol.md). Use the [Authority Graph Schema](authority-graph-schema.md) when the audit needs a compact relationship map.
 
 ## Stop Conditions
 

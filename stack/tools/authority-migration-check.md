@@ -22,6 +22,7 @@ related_docs:
   - agent-ecosystem-audit.md
   - stewardship-accountability-register.md
   - reasoning-trace-standard.md
+  - authority-graph-schema.md
 ---
 
 # Authority Migration Check
@@ -102,7 +103,7 @@ open_questions:
 
 ## Agent Use Protocol
 
-Look for where practical reliance has outrun formal authorization. Do not treat the absence of a formal decision as evidence that no authority has moved. If a component shapes what is seen, trusted, ranked, routed, remembered, or acted on, it may be exercising authority.
+Look for where practical reliance has outrun formal authorization. Do not treat the absence of a formal decision as evidence that no authority has moved. If a component shapes what is seen, trusted, ranked, routed, remembered, or acted on, it may be exercising authority. Use `migrated_authority_to` edges from the [Authority Graph Schema](authority-graph-schema.md) when representing migration relationships.
 
 ## Stop Conditions
 

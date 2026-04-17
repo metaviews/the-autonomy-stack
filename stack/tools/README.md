@@ -23,6 +23,7 @@ The tools are diagnostic. They do not certify that an agentic system is safe, le
 - [agentic-governance-vocabulary.md](agentic-governance-vocabulary.md) defines the terms agents should use consistently when applying the toolkit.
 - [metadata-conventions.md](metadata-conventions.md) explains the lightweight frontmatter and index conventions.
 - [concept-routing-guide.md](concept-routing-guide.md) maps autonomy corpus concepts and tensions to the governance tools.
+- [authority-graph-schema.md](authority-graph-schema.md) defines a compact node-and-edge format for ecosystem authority relationships.
 - [protocols/](protocols/) contains agent-operable prompts for applying each core tool.
 
 ## Use Sequence
@@ -37,6 +38,8 @@ The tools are diagnostic. They do not certify that an agentic system is safe, le
 Use the tools before an agent takes action that could affect access, allocation, classification, visibility, knowledge formation, or downstream decisions.
 
 For multi-agent or platform-mediated workflows, also use the **[Agent Ecosystem Audit](agent-ecosystem-audit.md)** to map agents, providers, tools, memory stores, humans, affected parties, data flows, authority flows, and ecosystem-level contestability. Use the **[Stewardship Accountability Register](stewardship-accountability-register.md)** to name who can change prompts, protocols, access rules, memory, evaluation criteria, provider choices, update policies, and contestability paths. Use the **[Authority Migration Check](authority-migration-check.md)** to identify power that has accumulated through repeated use, dependency, defaults, or workflow centrality.
+
+Use the **[Authority Graph Schema](authority-graph-schema.md)** when those ecosystem findings need to be represented as nodes and edges.
 
 ## Agent Use Rules
 

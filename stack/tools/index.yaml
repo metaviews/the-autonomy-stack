@@ -17,6 +17,19 @@ supporting_docs:
       - claim type
       - governance effect
       - unresolved tension
+  - doc_id: authority-graph-schema
+    title: Authority Graph Schema
+    path: authority-graph-schema.md
+    use_when:
+      - when representing relationships from an agent ecosystem audit
+      - when documenting stewardship, dependency, data, authority, contestability, or migration relationships
+      - when an agent needs a compact graph of ecosystem authority
+    outputs:
+      - authority graph nodes
+      - authority graph edges
+      - contestability status
+      - reversibility status
+      - unresolved relationship questions
 protocols:
   - protocol_id: apply-agent-authority-card
     title: Apply Agent Authority Card

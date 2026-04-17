@@ -88,7 +88,7 @@ Move from individual agents to agent ecologies.
 - Ecosystem audit template, beginning with `stack/tools/agent-ecosystem-audit.md`
 - Stewardship register template, beginning with `stack/tools/stewardship-accountability-register.md`
 - Authority migration check, beginning with `stack/tools/authority-migration-check.md`
-- Authority graph schema
+- Authority graph schema, beginning with `stack/tools/authority-graph-schema.md`
 - Agentic incident review template
 
 **Review question:** Can the Stack name emergent authority before it becomes invisible infrastructure?
