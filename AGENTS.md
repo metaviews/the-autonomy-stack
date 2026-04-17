@@ -20,6 +20,7 @@ There is no application build system and no formal test suite. Use the scripts o
 
 ```bash
 pip install -r scripts/requirements.txt
+python scripts/validate_docs.py
 python scripts/extract.py --limit 10
 python scripts/generate_patterns.py --pattern "Pattern Name"
 python scripts/find_cases.py --limit 10
@@ -40,7 +41,13 @@ Python scripts should remain standard-library oriented where possible, use 4-spa
 
 ## Testing Guidelines
 
-For Markdown-only changes, verify links, headings, naming conventions, and YAML readability where indexes or frontmatter are touched. For script changes, run the narrowest relevant command with a small limit first, such as:
+For Markdown-only changes, verify links, headings, naming conventions, and YAML readability where indexes or frontmatter are touched. Run the documentation validator before committing changes to agent-facing tools, protocols, indexes, or corpora:
+
+```bash
+python scripts/validate_docs.py
+```
+
+For corpus-processing script changes, run the narrowest relevant command with a small limit first, such as:
 
 ```bash
 python scripts/find_cases.py --limit 3

@@ -16,6 +16,7 @@ related_requirements:
 related_docs:
   - ../agentic-governance-annex.md
   - ../PROVOCATIONS.md
+  - reversibility-map.md
 ---
 
 # Contestability Protocol
@@ -47,6 +48,7 @@ Use whenever an agentic output informs a decision, changes a shared artifact, ro
 - What happens if the challenge succeeds?
 - What is the deadline for review relative to the harm?
 - What evidence is preserved for review?
+- Does the [Reversibility Map](reversibility-map.md) show that a successful challenge can change the practical outcome?
 
 ## Output Format
 

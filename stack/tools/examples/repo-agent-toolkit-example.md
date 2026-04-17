@@ -5,6 +5,7 @@ status: draft
 uses_tools:
   - ../agent-authority-card.md
   - ../delegability-review.md
+  - ../reversibility-map.md
   - ../contestability-protocol.md
   - ../reasoning-trace-standard.md
   - ../human-in-the-loop-adequacy-test.md
@@ -72,7 +73,7 @@ required_constraints:
 required_human_review:
   - approval of toolkit framing
   - approval of any new normative language
-reversibility_assessment: Proposed Markdown changes are reversible through normal repository review.
+reversibility_assessment: See Reversibility Map.
 affected_parties:
   - future agents reading the toolkit
   - humans relying on agent-readable governance docs
@@ -80,7 +81,42 @@ open_questions:
   - How formal schemas should become in a later phase
 ```
 
-## 3. Contestability Protocol
+## 3. Reversibility Map
+
+```yaml
+action_or_output: Proposed toolkit Markdown files
+affected_parties:
+  - repository maintainers
+  - contributors
+  - downstream agents using the toolkit
+downstream_dependencies:
+  - git history
+  - documentation readers
+  - future agent workflows
+reversibility_class:
+  value: conditionally_reversible
+reason: Repository changes can be reverted, but downstream agents may have already copied or acted on the guidance.
+required_evidence:
+  - changed files
+  - source roadmap
+  - source annex
+  - review comments
+rollback_or_correction_mechanism: Edit or revert the Markdown files before or after merge.
+authorized_reversal_actor: Human repository maintainer
+reversal_deadline: Before downstream reuse where possible.
+notice_to_affected_parties: Repository diff, changelog, issue, or release note if already published.
+residual_harm_after_reversal:
+  - copied guidance may persist outside the repository
+  - agents may have cached or internalized outdated tool language
+required_constraints_before_action:
+  - mark documents as draft
+  - keep diagnostic language
+  - require human review before adoption
+open_questions:
+  - whether future releases should publish machine-readable deprecation notices
+```
+
+## 4. Contestability Protocol
 
 ```yaml
 contested_output: Proposed toolkit documents
@@ -111,7 +147,7 @@ open_questions:
   - Whether downstream reuse should carry a warning about diagnostic use
 ```
 
-## 4. Reasoning Trace Standard
+## 5. Reasoning Trace Standard
 
 ```yaml
 output_id: repo-agent-toolkit-v1
@@ -147,7 +183,7 @@ open_questions:
   - whether to add examples for higher-stakes institutional agents later
 ```
 
-## 5. Human-in-the-Loop Adequacy Test
+## 6. Human-in-the-Loop Adequacy Test
 
 ```yaml
 review_role: Human repository maintainer

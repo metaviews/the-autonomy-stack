@@ -22,16 +22,21 @@ The tools are diagnostic. They do not certify that an agentic system is safe, le
 - [index.yaml](index.yaml) lists the tools, when to use them, required inputs, and expected outputs.
 - [agentic-governance-vocabulary.md](agentic-governance-vocabulary.md) defines the terms agents should use consistently when applying the toolkit.
 - [metadata-conventions.md](metadata-conventions.md) explains the lightweight frontmatter and index conventions.
+- [concept-routing-guide.md](concept-routing-guide.md) maps autonomy corpus concepts and tensions to the governance tools.
+- [protocols/](protocols/) contains agent-operable prompts for applying each core tool.
 
 ## Use Sequence
 
 1. **[Agent Authority Card](agent-authority-card.md)** - name what authority the agent is exercising.
 2. **[Delegability Review](delegability-review.md)** - decide whether the proposed task can be assigned to an agent under current conditions.
-3. **[Contestability Protocol](contestability-protocol.md)** - identify how outputs or decisions can be challenged, reversed, or escalated.
-4. **[Reasoning Trace Standard](reasoning-trace-standard.md)** - preserve the sources, assumptions, uncertainty, and downstream effects needed for review.
-5. **[Human-in-the-Loop Adequacy Test](human-in-the-loop-adequacy-test.md)** - test whether human oversight is substantive or only formal.
+3. **[Reversibility Map](reversibility-map.md)** - classify whether effects can be reversed in practice.
+4. **[Contestability Protocol](contestability-protocol.md)** - identify how outputs or decisions can be challenged, reversed, or escalated.
+5. **[Reasoning Trace Standard](reasoning-trace-standard.md)** - preserve the sources, assumptions, uncertainty, and downstream effects needed for review.
+6. **[Human-in-the-Loop Adequacy Test](human-in-the-loop-adequacy-test.md)** - test whether human oversight is substantive or only formal.
 
 Use the tools before an agent takes action that could affect access, allocation, classification, visibility, knowledge formation, or downstream decisions.
+
+For multi-agent or platform-mediated workflows, also use the **[Agent Ecosystem Audit](agent-ecosystem-audit.md)** to map agents, providers, tools, memory stores, humans, affected parties, data flows, authority flows, and ecosystem-level contestability. Use the **[Stewardship Accountability Register](stewardship-accountability-register.md)** to name who can change prompts, protocols, access rules, memory, evaluation criteria, provider choices, update policies, and contestability paths. Use the **[Authority Migration Check](authority-migration-check.md)** to identify power that has accumulated through repeated use, dependency, defaults, or workflow centrality.
 
 ## Agent Use Rules
 
@@ -44,7 +49,7 @@ Use the tools before an agent takes action that could affect access, allocation,
 
 ## Source Corpus Use
 
-Use [compiled-knowledge-usage.md](../indexes/compiled-knowledge-usage.md) before importing concepts from source corpora into a governance tool. The current autonomy theory corpus is [sources/philosophers](../../sources/philosophers/index.yaml).
+Use [compiled-knowledge-usage.md](../indexes/compiled-knowledge-usage.md) before importing concepts from source corpora into a governance tool. Use [concept-routing-guide.md](concept-routing-guide.md) to decide which concepts and tensions apply. The current autonomy theory corpus is [sources/philosophers](../../sources/philosophers/index.yaml).
 
 For agentic governance work, the corpus is most useful when a tool needs to name:
 
@@ -56,4 +61,4 @@ For agentic governance work, the corpus is most useful when a tool needs to name
 
 ## Example
 
-See [examples/repo-agent-toolkit-example.md](examples/repo-agent-toolkit-example.md) for a bounded open-source repo agent applying all five tools.
+See [examples/repo-agent-toolkit-example.md](examples/repo-agent-toolkit-example.md) for a bounded open-source repo agent applying all six core tools.

@@ -5,6 +5,55 @@ primary_audience: agents
 entrypoint: README.md
 vocabulary: agentic-governance-vocabulary.md
 example: examples/repo-agent-toolkit-example.md
+supporting_docs:
+  - doc_id: concept-routing-guide
+    title: Concept Routing Guide
+    path: concept-routing-guide.md
+    use_when:
+      - when applying autonomy corpus concepts to a governance tool
+      - when a tool touches authority, care, commons, legibility, refusal, abolition, education, or shared infrastructure
+    outputs:
+      - corpus concepts consulted
+      - claim type
+      - governance effect
+      - unresolved tension
+protocols:
+  - protocol_id: apply-agent-authority-card
+    title: Apply Agent Authority Card
+    path: protocols/apply-agent-authority-card.md
+    tool: agent-authority-card
+  - protocol_id: apply-delegability-review
+    title: Apply Delegability Review
+    path: protocols/apply-delegability-review.md
+    tool: delegability-review
+  - protocol_id: apply-reversibility-map
+    title: Apply Reversibility Map
+    path: protocols/apply-reversibility-map.md
+    tool: reversibility-map
+  - protocol_id: apply-contestability-protocol
+    title: Apply Contestability Protocol
+    path: protocols/apply-contestability-protocol.md
+    tool: contestability-protocol
+  - protocol_id: apply-reasoning-trace-standard
+    title: Apply Reasoning Trace Standard
+    path: protocols/apply-reasoning-trace-standard.md
+    tool: reasoning-trace-standard
+  - protocol_id: apply-human-in-the-loop-adequacy-test
+    title: Apply Human-in-the-Loop Adequacy Test
+    path: protocols/apply-human-in-the-loop-adequacy-test.md
+    tool: human-in-the-loop-adequacy-test
+  - protocol_id: apply-agent-ecosystem-audit
+    title: Apply Agent Ecosystem Audit
+    path: protocols/apply-agent-ecosystem-audit.md
+    tool: agent-ecosystem-audit
+  - protocol_id: apply-stewardship-accountability-register
+    title: Apply Stewardship Accountability Register
+    path: protocols/apply-stewardship-accountability-register.md
+    tool: stewardship-accountability-register
+  - protocol_id: apply-authority-migration-check
+    title: Apply Authority Migration Check
+    path: protocols/apply-authority-migration-check.md
+    tool: authority-migration-check
 tools:
   - tool_id: agent-authority-card
     title: Agent Authority Card
@@ -50,6 +99,30 @@ tools:
       - human review requirements
       - reversibility assessment
       - open questions
+  - tool_id: reversibility-map
+    title: Reversibility Map
+    path: reversibility-map.md
+    primary_question: Can the effects of this agentic action be reversed in practice, on time, and by accountable actors?
+    use_when:
+      - before an agent changes shared state
+      - before an agent output triggers downstream tools or decisions
+      - when reversibility is claimed but not yet demonstrated
+      - when contestability depends on rollback or correction
+    required_inputs:
+      - proposed action or output
+      - downstream systems or actors affected
+      - affected parties
+      - time sensitivity
+      - error consequences
+      - rollback or correction mechanism
+      - authorized reversal actor
+    outputs:
+      - reversibility class
+      - downstream dependencies
+      - required evidence
+      - reversal deadline
+      - residual harm after reversal
+      - constraints before action
   - tool_id: contestability-protocol
     title: Contestability Protocol
     path: contestability-protocol.md
@@ -119,3 +192,74 @@ tools:
       - override authority
       - capacity assessment
       - required changes
+  - tool_id: agent-ecosystem-audit
+    title: Agent Ecosystem Audit
+    path: agent-ecosystem-audit.md
+    primary_question: What agents, humans, providers, tools, memory stores, and affected parties form this ecosystem, and where has authority accumulated?
+    use_when:
+      - when a workflow involves multiple agents, models, tools, providers, or memory stores
+      - before expanding an agent deployment
+      - when authority, data, or accountability is distributed across components
+      - when ecosystem-level contestability is unclear
+    required_inputs:
+      - agents and agent roles
+      - providers and infrastructure dependencies
+      - tools, APIs, databases, and memory stores
+      - human stewards, reviewers, and affected parties
+      - data flows, instruction flows, authority flows, and escalation paths
+    outputs:
+      - agents and roles
+      - providers and infrastructure control points
+      - data and authority flows
+      - contestability paths
+      - emergent authority risks
+      - single points of failure
+      - stewardship gaps
+  - tool_id: stewardship-accountability-register
+    title: Stewardship Accountability Register
+    path: stewardship-accountability-register.md
+    primary_question: Who sets, changes, reviews, and is accountable for the rules under which agents act?
+    use_when:
+      - after an agent ecosystem audit
+      - before expanding agent permissions
+      - when responsibility for prompts, protocols, access, memory, evaluation, or updates is unclear
+      - when accountability is claimed but stewardship authority is unnamed
+    required_inputs:
+      - agent ecosystem or deployment
+      - steward roles and institutions
+      - protocols, prompts, policies, and evaluation criteria
+      - access, permission, memory, and update rules
+      - human review and escalation responsibilities
+      - affected parties and contestation channels
+    outputs:
+      - steward roles and domains
+      - authority limits
+      - review obligations
+      - concentrated authority risks
+      - externalized stewardship risks
+      - unowned decisions
+      - required logs and reviews
+  - tool_id: authority-migration-check
+    title: Authority Migration Check
+    path: authority-migration-check.md
+    primary_question: Has authority moved through repeated use, dependency, defaults, or workflow centrality rather than explicit delegation?
+    use_when:
+      - after an agent ecosystem audit
+      - during recurring system reviews
+      - before renewing or expanding agent deployments
+      - when a component has become difficult to replace, challenge, or ignore
+    required_inputs:
+      - agent ecosystem audit
+      - stewardship accountability register
+      - usage patterns and dependency records
+      - default prompts, routing rules, and evaluation criteria
+      - human review logs and override records
+      - alternatives or fallback paths
+    outputs:
+      - migration candidates
+      - migration signals
+      - affected decisions and parties
+      - formal delegation status
+      - contestability and reversibility status
+      - fallback alternatives
+      - required updates

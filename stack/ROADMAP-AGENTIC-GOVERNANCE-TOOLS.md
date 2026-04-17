@@ -78,15 +78,16 @@ Move from individual agents to agent ecologies.
 
 **Work to do:**
 
-- Develop an **Agent Ecosystem Audit** that maps relationships among agents, providers, tools, memory stores, humans, and affected parties.
-- Develop a **Stewardship Accountability Register** for the actors who set protocols, prompts, access rules, evaluation criteria, and update policies.
-- Define an **Authority Migration Check** for identifying where power has moved through repeated agent use rather than formal delegation.
+- Develop an **Agent Ecosystem Audit** that maps relationships among agents, providers, tools, memory stores, humans, and affected parties. **Status: drafted.**
+- Develop a **Stewardship Accountability Register** for the actors who set protocols, prompts, access rules, evaluation criteria, and update policies. **Status: drafted.**
+- Define an **Authority Migration Check** for identifying where power has moved through repeated agent use rather than formal delegation. **Status: drafted.**
 - Create incident review guidance for failures distributed across multiple agents.
 
 **Outputs:**
 
-- Ecosystem audit template
-- Stewardship register template
+- Ecosystem audit template, beginning with `stack/tools/agent-ecosystem-audit.md`
+- Stewardship register template, beginning with `stack/tools/stewardship-accountability-register.md`
+- Authority migration check, beginning with `stack/tools/authority-migration-check.md`
 - Authority graph schema
 - Agentic incident review template
 
@@ -107,8 +108,8 @@ Make the tools usable inside agent workflows.
 
 **Outputs:**
 
-- Protocol prompts or instruction files
-- Validation scripts
+- Protocol prompts or instruction files, beginning with `stack/tools/protocols/`
+- Validation scripts, beginning with `scripts/validate_docs.py`
 - Worked examples
 - Optional CLI scaffolding once the templates stabilize
 
@@ -133,11 +134,12 @@ The first practical milestone is a small, coherent **Agentic Governance Toolkit*
 
 1. Agent Authority Card
 2. Delegability Review
-3. Contestability Protocol
-4. Reasoning Trace Standard
-5. Human-in-the-Loop Adequacy Test
+3. Reversibility Map
+4. Contestability Protocol
+5. Reasoning Trace Standard
+6. Human-in-the-Loop Adequacy Test
 
-This set is small enough to build now and foundational enough to shape later schemas, validation scripts, and agent-operable protocols.
+This set is small enough to build now and foundational enough to shape later schemas, validation scripts, and agent-operable protocols. Current status: all six core instruments are drafted, with a concept routing guide connecting the toolkit to the philosopher autonomy corpus, agent-operable prompts in `stack/tools/protocols/`, and `scripts/validate_docs.py` checking links, tool metadata, protocol metadata, index paths, and corpus counts. Stage 3 has begun with the Agent Ecosystem Audit.
 
 The second near-term milestone is the **Philosopher Autonomy Corpus** in `sources/philosophers/`:
 
@@ -146,7 +148,7 @@ The second near-term milestone is the **Philosopher Autonomy Corpus** in `source
 3. Seed autonomy-focused thinkers beginning with Cornelius Castoriadis.
 4. Use the corpus to test Compiled Knowledge Infrastructure as a Stack element.
 
-Current status: seeded with 28 thinkers, 18 concepts, and 14 tensions, with an intentionally stronger center of gravity around anarchist, anarchist-adjacent, abolitionist, Indigenous, feminist, and commons traditions. Next work is to connect corpus concepts to governance tools and future validation scripts.
+Current status: seeded with 28 thinkers, 18 concepts, and 14 tensions, with an intentionally stronger center of gravity around anarchist, anarchist-adjacent, abolitionist, Indigenous, feminist, and commons traditions. Corpus paths and counts are now covered by the documentation validator.
 
 ---
 

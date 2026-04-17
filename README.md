@@ -76,6 +76,16 @@ The Autonomy Stack has completed its first full roadmap execution across three m
 
 The next roadmap direction is agentic governance tooling: making the framework usable by agents that build from open-source materials while preserving human accountability and contestability. The first draft toolkit is in [`stack/tools/`](stack/tools/), with an agent-readable [`index.yaml`](stack/tools/index.yaml). See [`stack/ROADMAP-AGENTIC-GOVERNANCE-TOOLS.md`](stack/ROADMAP-AGENTIC-GOVERNANCE-TOOLS.md) and [`stack/STATE.md`](stack/STATE.md) for the current orientation snapshot.
 
+## Validation
+
+Run the documentation validator before committing changes to agent-facing indexes, tools, or source corpora:
+
+```bash
+python scripts/validate_docs.py
+```
+
+The validator checks local Markdown links, toolkit index consistency, required tool and protocol frontmatter, philosopher corpus paths, and source-corpus counts.
+
 The work is alive, unfinished, and deliberately open. Its value lies not in arriving at certainty, but in cultivating clarity, shared language, and the capacity to act together under conditions of uncertainty.
 
 *If authority shapes our lives,

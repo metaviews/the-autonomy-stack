@@ -16,6 +16,7 @@ related_requirements:
 related_docs:
   - ../agentic-governance-annex.md
   - ../PROVOCATIONS.md
+  - reversibility-map.md
 ---
 
 # Delegability Review
@@ -47,6 +48,7 @@ Use before assigning a new task type, expanding an agent's permissions, connecti
 - Can a human reviewer understand and override the output?
 - Does the task require value judgment, care judgment, or legitimacy judgment?
 - Would delegation erode human capacity that the system still needs?
+- Has a [Reversibility Map](reversibility-map.md) classified practical reversibility, downstream dependencies, and residual harm?
 
 ## Output Format
 
