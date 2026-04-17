@@ -2,7 +2,9 @@
 
 ## Project Overview
 
-The Autonomy Stack is a **documentation-first governance framework** — a living reference architecture that maps the conditions under which individual and collective agency is possible, sustainable, and contestable. It is not a software project, startup, or political platform. All content is Markdown.
+The Autonomy Stack is a **documentation-first governance framework** — a living reference architecture that maps the conditions under which individual and collective agency is possible, sustainable, and contestable. It is not a software project, startup, or political platform. Most content is Markdown, with lightweight YAML indexes for agent-readable navigation.
+
+The current operational audience now includes agents as primary readers and actors. Agent-facing artifacts should remain diagnostic and contestable, not compliance certificates.
 
 The framework treats governance as an **operating system** composed of six interconnected layers, each understood as a dimension of agency:
 
@@ -27,6 +29,10 @@ The current architecture is **v0.3**, which reframes layers as dimensions of age
 | `stack/design-toolkit.md` | Diagnostic questions by layer for practitioners |
 | `stack/pattern-quick-reference.md` | All 20 patterns in 1–2 sentences with layer mappings |
 | `stack/agentic-governance-annex.md` | How each layer applies to agentic systems |
+| `stack/ROADMAP-AGENTIC-GOVERNANCE-TOOLS.md` | Current vNext roadmap for agent-legible governance tooling |
+| `stack/tools/` | Agentic Governance Toolkit: five diagnostic instruments, vocabulary, metadata conventions, and example |
+| `stack/tools/index.yaml` | Agent-readable tool index with use cases, inputs, and outputs |
+| `stack/indexes/` | Lightweight YAML indexes for layers, patterns, and provocations |
 | `stack/modules/` | Five completed domain modules (Food Power, Care Infrastructure, Epistemic Coordination, Commons & Institutional Governance, Distributed Resistance) |
 | `stack/cases/` | Completed case studies + candidate review file (`candidates.md`) |
 | `patterns/` | 20 recurring governance dynamics with 7-section structure |
@@ -104,12 +110,16 @@ Dependencies: `openai>=1.0.0`, `python-dotenv>=1.0.0`
 - **Patterns** follow a 7-section structure: Summary / Core Dynamic / Signals / What It Targets / Why It Works / Common Misreadings / Related Patterns
 - **Signals** are named `YYYY-MM-DD--kebab-case-title.md` and surface tension rather than resolve it
 - **Extractions** are named `YYYY-MM-DD--slug.md` with YAML frontmatter, categorized as SIGNAL / PATTERN CANDIDATE / STACK MATERIAL / CONCEPT / PROVOCATION / OTHER
+- **Agentic governance tools** use YAML frontmatter, diagnostic sections, and explicit stop conditions; see `stack/tools/metadata-conventions.md`
+- **Indexes** route agents to source documents and should not be treated as replacements for the source material
 - Voice is analytic but not clinical — names things directly without performing certainty
 
 ## How to Engage
 
 - Read `stack/entry.md` for a first-time orientation
 - Read `stack/STATE.md` for current posture and open tensions
+- Use `stack/tools/README.md` and `stack/tools/index.yaml` when applying the agentic governance toolkit
+- Use `stack/indexes/` for agent navigation across layers, patterns, and provocations
 - Read `PRINCIPLES.md` and `PROVOCATIONS.md` before proposing significant additions or changes
 - Treat uncertainty as a feature, not a flaw
 - All design choices must surface their assumptions and trade-offs explicitly

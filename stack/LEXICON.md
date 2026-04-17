@@ -25,7 +25,7 @@ This lexicon defines the vocabulary the Autonomy Stack uses consistently and rel
 
 **Contestability & Governance Process:** Automated Bureaucratic Memory, Contestability, Failure Management, Governance by Neglect, Legal Leverage, Procedural Contestation, Semantic Circuit Breaker, Shared Endurance, Substantive Contestation, System Stewardship
 
-**Epistemics & Knowledge:** Distributed Epistemic Organism, Epistemic Legibility, Epistemic War, Harmony, Legibility, Orientation Scarcity, Semantic Capture, Shared Factual Baseline, Shared Situational Awareness, Systems Literacy, Technical Legibility
+**Epistemics & Knowledge:** Compiled Knowledge Infrastructure, Distributed Epistemic Organism, Epistemic Legibility, Epistemic War, Harmony, Legibility, Orientation Scarcity, Semantic Capture, Shared Factual Baseline, Shared Situational Awareness, Systems Literacy, Technical Legibility
 
 **Material & Infrastructure:** Agricultural Literacy, Baseline Risk Absorption, Dark Flight Logistics, Dual-Track Model, Food Power, Metabolic Rift, System Stewardship
 
@@ -140,6 +140,14 @@ Legitimacy derived from localized knowledge and situational awareness, operating
 A resource governed collectively by its users through shared rules, benefit distribution, and accountability structures. Distinct from both state provision (which may lack self-governance) and private ownership (which lacks collective accountability). The commons is not nostalgic or static — it is a living governance form that must be designed for adaptability and democratic control. Threatened by enclosure (conversion to private property), by capture (governance controlled by a subset of users), and by substitution (informal commons replaced by state or market provision without equivalent accountability). A resurgent commons is one that is actively constructed rather than merely defended.
 
 *Layers:* 2 | *Patterns:* Commons Destruction, Material Base Sovereignty | *Related:* Tripartite Governance, State Origin Through Destruction of Commons, Mutual Aid
+
+---
+
+**Compiled Knowledge Infrastructure**
+
+A knowledge-maintenance architecture in which raw sources remain inspectable and stable while agents maintain a structured, cross-referenced synthesis layer from those sources. Distinct from retrieval-only systems: the compiled layer accumulates interpretation, entity pages, concept pages, tensions, contradictions, and links over time. Its governance requirement is strict separation between source claim, interpretive synthesis, and Stack application, so agent-maintained knowledge does not launder interpretation into apparent fact.
+
+*Layers:* 3, 5 | *Related:* Distributed Epistemic Organism, Epistemic Legibility, Orientation Scarcity, Systems Literacy
 
 ---
 

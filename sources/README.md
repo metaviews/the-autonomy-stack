@@ -25,3 +25,16 @@ python scripts/extract.py --reset                 # clear checkpoint and reproce
 Requires `OPENROUTER_API_KEY` in the environment. Default model: `google/gemini-flash-1.5`.
 
 Progress is checkpointed after each issue in `extractions/.checkpoint.json` — safe to interrupt and resume.
+
+## Philosophers of Autonomy
+
+`philosophers/` is a compiled knowledge corpus for thinkers and concepts that illuminate autonomy, self-governance, freedom, agency, authority, and related tensions.
+
+It follows a Compiled Knowledge Infrastructure pattern:
+
+- `raw/` preserves source records and bibliographic notes.
+- `wiki/` contains agent-maintained synthesis pages.
+- `schema.md` defines the workflow and page conventions.
+- `index.yaml` gives agents a lightweight routing layer.
+
+Compiled pages must distinguish source claims, interpretive synthesis, and Stack application.

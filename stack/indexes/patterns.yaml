@@ -1,0 +1,85 @@
+index_id: stack-patterns
+title: Pattern Index
+status: draft
+source_dir: ../../patterns
+patterns:
+  - pattern_id: algorithmic-authority
+    name: Algorithmic Authority
+    path: ../../patterns/algorithmic-authority.md
+    primary_layers: [L4, L3]
+  - pattern_id: epistemic-warfare
+    name: Epistemic Warfare
+    path: ../../patterns/epistemic-warfare.md
+    primary_layers: [L5, L4]
+  - pattern_id: legitimacy-drift
+    name: Legitimacy Drift
+    path: ../../patterns/legitimacy-drift.md
+    primary_layers: [L4, L3]
+  - pattern_id: care-vs-coercion
+    name: Care vs. Coercion
+    path: ../../patterns/care-vs-coercion.md
+    primary_layers: [L6, L4]
+  - pattern_id: platform-capture
+    name: Platform Capture
+    path: ../../patterns/platform-capture.md
+    primary_layers: [L2, L4]
+  - pattern_id: obedience-in-advance
+    name: Obedience in Advance
+    path: ../../patterns/obedience-in-advance.md
+    primary_layers: [L6, L4]
+  - pattern_id: institutional-weaponization
+    name: Institutional Weaponization
+    path: ../../patterns/institutional-weaponization.md
+    primary_layers: [L4, L2]
+  - pattern_id: manufactured-ambiguity
+    name: Manufactured Ambiguity
+    path: ../../patterns/manufactured-ambiguity.md
+    primary_layers: [L3, L4]
+  - pattern_id: strategic-ambiguity
+    name: Strategic Ambiguity
+    path: ../../patterns/strategic-ambiguity.md
+    primary_layers: [L4, L3]
+  - pattern_id: commons-destruction
+    name: Commons Destruction
+    path: ../../patterns/commons-destruction.md
+    primary_layers: [L2, L1]
+  - pattern_id: material-base-sovereignty
+    name: Material Base Sovereignty
+    path: ../../patterns/material-base-sovereignty.md
+    primary_layers: [L1, L4]
+  - pattern_id: distributed-resistance
+    name: Distributed Resistance
+    path: ../../patterns/distributed-resistance.md
+    primary_layers: [L2, L6]
+  - pattern_id: proceduralism-as-shield
+    name: Proceduralism as Shield
+    path: ../../patterns/proceduralism-as-shield.md
+    primary_layers: [L4, L3]
+  - pattern_id: procedural-entombment
+    name: Procedural Entombment
+    path: ../../patterns/procedural-entombment.md
+    primary_layers: [L4, L2]
+  - pattern_id: collective-leadership-architecture
+    name: Collective Leadership Architecture
+    path: ../../patterns/collective-leadership-architecture.md
+    primary_layers: [L2, L4]
+  - pattern_id: semantic-capture
+    name: Semantic Capture
+    path: ../../patterns/semantic-capture.md
+    primary_layers: [L3, L5]
+  - pattern_id: care-infrastructure-failure
+    name: Care Infrastructure Failure
+    path: ../../patterns/care-infrastructure-failure.md
+    primary_layers: [L6, L1]
+  - pattern_id: temporal-capture
+    name: Temporal Capture
+    path: ../../patterns/temporal-capture.md
+    primary_layers: [L4, L3]
+  - pattern_id: internal-policing
+    name: Internalized Policing
+    path: ../../patterns/internal-policing.md
+    primary_layers: [L6, L4]
+  - pattern_id: hybrid-war
+    name: Hybrid War
+    path: ../../patterns/hybrid-war.md
+    primary_layers: [L4, L5, L3]

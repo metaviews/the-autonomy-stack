@@ -1,0 +1,45 @@
+index_id: stack-provocations
+title: Provocation Index
+status: draft
+source_doc: ../PROVOCATIONS.md
+provocations:
+  - provocation_id: P1
+    name: Authority Without Legibility
+    full_title: "Authority Without Legibility: Technical Opacity as Structural Power"
+    concern: Technical legibility can mask rather than enable meaningful challenge to power.
+    primary_layers: [L3, L4]
+  - provocation_id: P2
+    name: Care-Based Authority vs. Contestability
+    full_title: "Care-Based Authority vs. Contestability: The Moralization Trap"
+    concern: Care can generate legitimacy while resisting challenge because contestation is framed as betrayal or ingratitude.
+    primary_layers: [L6, L4]
+  - provocation_id: P3
+    name: The Knowledge Authority Paradox
+    full_title: "The Knowledge Authority Paradox: Expertise Forbidden, Expertise Required"
+    concern: Governance needs expertise while also needing to prevent expertise from becoming unchallengeable authority.
+    primary_layers: [L5, L4]
+  - provocation_id: P4
+    name: The Resilience-Speed Trade-Off
+    full_title: "The Resilience-Speed Trade-Off: Distributed Systems Cannot Move Fast Enough in Crises"
+    concern: Distributed systems preserve resilience and contestability but may be too slow under acute conditions.
+    primary_layers: [L2, L4]
+  - provocation_id: P5
+    name: Language as a Contested Medium
+    full_title: "Language as a Contested Medium: The Semantic Collapse of Governance"
+    concern: Governance vocabulary can be captured, hollowed out, or rendered unusable before formal decisions occur.
+    primary_layers: [L3, L5]
+  - provocation_id: P6
+    name: Private Authority Beyond the State
+    full_title: "Private Authority Beyond the State: Sovereignty Without Territory"
+    concern: Private infrastructures can exercise public governance power without formal public accountability.
+    primary_layers: [L2, L4]
+  - provocation_id: P7
+    name: Material Base as Authority Determinant
+    full_title: "Material Base as Authority Determinant: You Cannot Govern Without Food"
+    concern: Material control is not only a precondition of governance; it is itself an authority mechanism.
+    primary_layers: [L1, L4]
+  - provocation_id: P8
+    name: The Care-Capacity Inversion
+    full_title: "The Care-Capacity Inversion: The System Demands Care It Cannot Provide"
+    concern: Systems demand care capacity while depleting the material and relational conditions that make care possible.
+    primary_layers: [L6, L1]

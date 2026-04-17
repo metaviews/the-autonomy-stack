@@ -19,6 +19,7 @@ The tools are diagnostic. They do not certify that an agentic system is safe, le
 
 - [index.yaml](index.yaml) lists the tools, when to use them, required inputs, and expected outputs.
 - [agentic-governance-vocabulary.md](agentic-governance-vocabulary.md) defines the terms agents should use consistently when applying the toolkit.
+- [metadata-conventions.md](metadata-conventions.md) explains the lightweight frontmatter and index conventions.
 
 ## Use Sequence
 

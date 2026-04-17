@@ -7,6 +7,8 @@ The Autonomy Stack is a documentation-first governance framework. Most work is M
 - `stack/` contains the conceptual core. Start with `stack/entry.md`, `stack/00-overview.md`, and `stack/STATE.md`.
 - `stack/modules/` holds the five completed domain modules.
 - `stack/cases/` holds case studies, the case study template, and candidate workflow files.
+- `stack/tools/` holds the Agentic Governance Toolkit for agent-facing diagnostics.
+- `stack/indexes/` holds lightweight YAML indexes for layers, patterns, and provocations.
 - `patterns/` contains recurring governance dynamics with a shared section structure.
 - `signals/` contains short timestamped orientation artifacts.
 - `sources/` contains source material and structured extraction outputs.
@@ -32,11 +34,13 @@ Write Markdown in a direct, analytic voice. Prefer clear claims, explicit assump
 
 Use kebab-case file names for content files. Signals and extractions follow `YYYY-MM-DD--kebab-case-title.md`. Patterns use stable descriptive slugs such as `platform-capture.md`.
 
+Agentic governance tools use YAML frontmatter and consistent diagnostic sections. Keep these tools diagnostic rather than compliance-oriented; completion of a tool is not approval to act. Follow `stack/tools/metadata-conventions.md` for new tool or index metadata.
+
 Python scripts should remain standard-library oriented where possible, use 4-space indentation, and keep command-line behavior explicit through `argparse`.
 
 ## Testing Guidelines
 
-For Markdown-only changes, verify links, headings, and naming conventions manually. For script changes, run the narrowest relevant command with a small limit first, such as:
+For Markdown-only changes, verify links, headings, naming conventions, and YAML readability where indexes or frontmatter are touched. For script changes, run the narrowest relevant command with a small limit first, such as:
 
 ```bash
 python scripts/find_cases.py --limit 3
@@ -52,4 +56,4 @@ Pull requests should include a short description, the affected paths, and any co
 
 ## Agent-Specific Instructions
 
-Before major structural additions, read `PRINCIPLES.md` and `stack/PROVOCATIONS.md`. Many apparent gaps are already framed as unresolved tensions. Preserve the project’s content flow: narrative source material informs extractions, signals, patterns, stack layers, modules, and case studies through editorial judgment rather than automation alone.
+Before major structural additions, read `PRINCIPLES.md`, `stack/STATE.md`, `stack/PROVOCATIONS.md`, and the current roadmap in `stack/ROADMAP-AGENTIC-GOVERNANCE-TOOLS.md`. Many apparent gaps are already framed as unresolved tensions. Preserve the project’s content flow: narrative source material informs extractions, signals, patterns, stack layers, modules, tools, and case studies through editorial judgment rather than automation alone.

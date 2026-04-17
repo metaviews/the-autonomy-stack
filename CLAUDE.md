@@ -4,9 +4,9 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What This Repository Is
 
-The Autonomy Stack is a **documentation-first governance framework** — no build system, no tests. All content is markdown. The project maps the conditions under which individual and collective agency is possible, sustainable, and contestable, organized as a reference architecture across six interconnected layers.
+The Autonomy Stack is a **documentation-first governance framework** — no build system, no tests. Most content is Markdown, with lightweight YAML indexes for agent-readable navigation. The project maps the conditions under which individual and collective agency is possible, sustainable, and contestable, organized as a reference architecture across six interconnected layers.
 
-It has a dual-use audience: human readers and automated systems. Artifacts are written to be legible to both without implying hierarchy or command.
+It now treats agents as a primary operational audience. Artifacts should remain legible to humans while being structured enough for agents to route, apply, and be governed by the framework without turning it into compliance theater.
 
 ## Repository Structure
 
@@ -21,9 +21,20 @@ It has a dual-use audience: human readers and automated systems. Artifacts are w
 - `design-toolkit.md` — Diagnostic questions organized by layer for practitioners.
 - `pattern-quick-reference.md` — All 20 patterns in 1–2 sentences with layer mappings.
 - `agentic-governance-annex.md` — Cross-cutting analysis of how each Stack layer applies to agentic systems.
+- `ROADMAP-AGENTIC-GOVERNANCE-TOOLS.md` — Current vNext roadmap focused on agent-legible governance tooling.
 - `case-study-template.md` + `cases/` — Template and completed case studies.
 
 **`/stack/modules/`** — Five completed modules: `food-power.md`, `care-based-infrastructure.md`, `epistemic-coordination.md`, `commons-institutional-governance.md`, `distributed-resistance.md`.
+
+**`/stack/tools/`** — Agentic Governance Toolkit.
+- `README.md` — Toolkit entry point and use sequence.
+- `index.yaml` — Agent-readable list of tools, required inputs, and expected outputs.
+- `agentic-governance-vocabulary.md` — Shared vocabulary for agentic governance terms.
+- `metadata-conventions.md` — Frontmatter and index conventions.
+- Five diagnostic instruments: Agent Authority Card, Delegability Review, Contestability Protocol, Reasoning Trace Standard, Human-in-the-Loop Adequacy Test.
+- `examples/repo-agent-toolkit-example.md` — Worked example for a bounded repo agent.
+
+**`/stack/indexes/`** — Lightweight YAML indexes for agent navigation: layers, patterns, and provocations. These route agents to source documents; they do not replace the source documents.
 
 **`/patterns/`** — Recurring governance dynamics distilled from practice. 20 patterns currently in the library. They describe recurrent phenomena, not rules.
 
@@ -63,6 +74,10 @@ Each layer is a dimension of agency — a question about what makes autonomy pos
 **Signals** are named `YYYY-MM-DD--kebab-case-title.md`. They do not resolve tension — they surface it.
 
 **Extractions** (in `sources/extractions/`) are named `YYYY-MM-DD--slug.md` with YAML frontmatter. Organized by category: SIGNAL / PATTERN CANDIDATE / STACK MATERIAL / CONCEPT / PROVOCATION / OTHER.
+
+**Agentic governance tools** use YAML frontmatter and consistent diagnostic sections. They are diagnostic, not compliance artifacts. See `stack/tools/metadata-conventions.md`.
+
+**Indexes** in `stack/indexes/` and `stack/tools/index.yaml` are routing aids for agents. If an index conflicts with a source document, prefer the source and flag the inconsistency.
 
 **STATE.md** is revised when orientation changes, not on a schedule.
 

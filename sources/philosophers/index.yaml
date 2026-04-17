@@ -1,0 +1,507 @@
+corpus_id: philosophers-of-autonomy
+title: Philosophers of Autonomy
+status: draft
+method: compiled-knowledge-infrastructure
+schema: schema.md
+raw_dir: raw/
+wiki_dir: wiki/
+scope:
+  includes:
+    - autonomy
+    - self-governance
+    - freedom
+    - agency
+    - authority
+    - collective self-rule
+  excludes:
+    - general philosophy summaries not tied to autonomy
+    - unsourced influence claims
+governance_rule: Separate source claim, interpretive synthesis, and Stack application.
+thinkers:
+  - thinker_id: cornelius-castoriadis
+    name: Cornelius Castoriadis
+    status: seeded
+    wave: 1
+    tradition_tags: [libertarian-socialist, councilist, autonomy, collective-autonomy]
+    page: wiki/thinkers/cornelius-castoriadis.md
+    raw_sources:
+      - raw/castoriadis-source-record.md
+    primary_stack_layers: [L2, L4, L5]
+    core_relevance:
+      - individual and collective autonomy
+      - explicit self-institution of society
+      - social imaginary
+      - autonomy and heteronomy
+  - thinker_id: peter-kropotkin
+    name: Peter Kropotkin
+    status: seeded
+    wave: 1
+    tradition_tags: [anarchist, mutual-aid, commons, anti-authoritarian]
+    page: wiki/thinkers/peter-kropotkin.md
+    raw_sources:
+      - raw/wave-1-source-records.md
+    primary_stack_layers: [L2, L6, L1]
+    core_relevance:
+      - mutual aid
+      - cooperation
+      - anti-authoritarian social organization
+  - thinker_id: emma-goldman
+    name: Emma Goldman
+    status: seeded
+    wave: 1
+    tradition_tags: [anarchist, feminist-autonomy, anti-authoritarian]
+    page: wiki/thinkers/emma-goldman.md
+    raw_sources:
+      - raw/wave-1-source-records.md
+    primary_stack_layers: [L4, L6, L3]
+    core_relevance:
+      - lived freedom
+      - anti-authoritarian feminism
+      - speech and state repression
+  - thinker_id: gustav-landauer
+    name: Gustav Landauer
+    status: seeded
+    wave: 1
+    tradition_tags: [anarchist, community, social-renewal]
+    page: wiki/thinkers/gustav-landauer.md
+    raw_sources:
+      - raw/wave-1-source-records.md
+    primary_stack_layers: [L2, L4, L6]
+    core_relevance:
+      - community
+      - state as social relation
+      - prefigurative social renewal
+  - thinker_id: david-graeber
+    name: David Graeber
+    status: seeded
+    wave: 1
+    tradition_tags: [anarchist, anthropology, direct-action, bureaucracy-critique]
+    page: wiki/thinkers/david-graeber.md
+    raw_sources:
+      - raw/wave-1-source-records.md
+    primary_stack_layers: [L2, L4, L3]
+    core_relevance:
+      - direct action
+      - debt and obligation
+      - bureaucracy critique
+  - thinker_id: james-c-scott
+    name: James C. Scott
+    status: seeded
+    wave: 1
+    tradition_tags: [anarchist-adjacent, state-legibility, everyday-resistance]
+    page: wiki/thinkers/james-c-scott.md
+    raw_sources:
+      - raw/wave-1-source-records.md
+    primary_stack_layers: [L3, L4, L2]
+    core_relevance:
+      - state legibility
+      - local knowledge
+      - everyday resistance
+  - thinker_id: murray-bookchin
+    name: Murray Bookchin
+    status: seeded
+    wave: 1
+    tradition_tags: [social-ecology, libertarian-municipalism, anti-hierarchy]
+    page: wiki/thinkers/murray-bookchin.md
+    raw_sources:
+      - raw/wave-1-source-records.md
+    primary_stack_layers: [L1, L2, L4]
+    core_relevance:
+      - social ecology
+      - hierarchy critique
+      - municipal self-government
+  - thinker_id: ivan-illich
+    name: Ivan Illich
+    status: seeded
+    wave: 1
+    tradition_tags: [anarchist-adjacent, convivial-tools, institutional-critique]
+    page: wiki/thinkers/ivan-illich.md
+    raw_sources:
+      - raw/wave-1-source-records.md
+    primary_stack_layers: [L3, L5, L6]
+    core_relevance:
+      - convivial tools
+      - institutional counterproductivity
+      - autonomy-preserving technology
+  - thinker_id: hannah-arendt
+    name: Hannah Arendt
+    status: seeded
+    wave: 1
+    tradition_tags: [public-freedom, action, plurality]
+    page: wiki/thinkers/hannah-arendt.md
+    raw_sources:
+      - raw/wave-1-source-records.md
+    primary_stack_layers: [L4, L5, L6]
+    core_relevance:
+      - action
+      - plurality
+      - public freedom
+  - thinker_id: michel-foucault
+    name: Michel Foucault
+    status: seeded
+    wave: 1
+    tradition_tags: [critical-autonomy, power-knowledge, subjectivation]
+    page: wiki/thinkers/michel-foucault.md
+    raw_sources:
+      - raw/wave-1-source-records.md
+    primary_stack_layers: [L3, L4, L5]
+    core_relevance:
+      - power and subject formation
+      - critique
+      - practices of freedom
+  - thinker_id: immanuel-kant
+    name: Immanuel Kant
+    status: seeded
+    wave: 1
+    tradition_tags: [moral-autonomy, self-legislation]
+    page: wiki/thinkers/immanuel-kant.md
+    raw_sources:
+      - raw/wave-1-source-records.md
+    primary_stack_layers: [L4, L5]
+    core_relevance:
+      - moral autonomy
+      - self-legislation
+      - dignity
+  - thinker_id: isaiah-berlin
+    name: Isaiah Berlin
+    status: seeded
+    wave: 1
+    tradition_tags: [liberal-autonomy, negative-liberty, positive-liberty]
+    page: wiki/thinkers/isaiah-berlin.md
+    raw_sources:
+      - raw/wave-1-source-records.md
+    primary_stack_layers: [L4, L3]
+    core_relevance:
+      - negative liberty
+      - positive liberty
+      - value pluralism
+planned_waves:
+  - wave: 1
+    status: planned
+    purpose: First autonomy corpus seed with a stronger anarchist and anti-authoritarian center of gravity.
+    thinkers:
+      - thinker_id: cornelius-castoriadis
+        name: Cornelius Castoriadis
+        tradition_tags: [libertarian-socialist, councilist, autonomy, collective-autonomy]
+      - thinker_id: peter-kropotkin
+        name: Peter Kropotkin
+        tradition_tags: [anarchist, mutual-aid, commons, anti-authoritarian]
+      - thinker_id: emma-goldman
+        name: Emma Goldman
+        tradition_tags: [anarchist, feminist-autonomy, anti-authoritarian]
+      - thinker_id: gustav-landauer
+        name: Gustav Landauer
+        tradition_tags: [anarchist, community, social-renewal]
+      - thinker_id: david-graeber
+        name: David Graeber
+        tradition_tags: [anarchist, anthropology, direct-action, bureaucracy-critique]
+      - thinker_id: james-c-scott
+        name: James C. Scott
+        tradition_tags: [anarchist-adjacent, state-legibility, everyday-resistance]
+      - thinker_id: murray-bookchin
+        name: Murray Bookchin
+        tradition_tags: [social-ecology, libertarian-municipalism, anti-hierarchy]
+      - thinker_id: ivan-illich
+        name: Ivan Illich
+        tradition_tags: [anarchist-adjacent, convivial-tools, institutional-critique]
+      - thinker_id: hannah-arendt
+        name: Hannah Arendt
+        tradition_tags: [public-freedom, action, plurality]
+      - thinker_id: michel-foucault
+        name: Michel Foucault
+        tradition_tags: [critical-autonomy, power-knowledge, subjectivation]
+      - thinker_id: immanuel-kant
+        name: Immanuel Kant
+        tradition_tags: [moral-autonomy, self-legislation]
+      - thinker_id: isaiah-berlin
+        name: Isaiah Berlin
+        tradition_tags: [liberal-autonomy, negative-liberty, positive-liberty]
+  - wave: 2
+    status: planned
+    purpose: Second wave broadening anti-authoritarian, abolitionist, Indigenous, feminist, and democratic autonomy traditions.
+    thinkers:
+      - thinker_id: john-stuart-mill
+        name: John Stuart Mill
+        tradition_tags: [liberal-autonomy, self-development]
+      - thinker_id: erich-fromm
+        name: Erich Fromm
+        tradition_tags: [critical-autonomy, authoritarianism, social-character]
+      - thinker_id: simone-weil
+        name: Simone Weil
+        tradition_tags: [attention, obligation, force, rootedness]
+      - thinker_id: paulo-freire
+        name: Paulo Freire
+        tradition_tags: [critical-pedagogy, liberation, conscientization]
+      - thinker_id: elinor-ostrom
+        name: Elinor Ostrom
+        tradition_tags: [commons, self-governance, institutional-diversity]
+      - thinker_id: pierre-joseph-proudhon
+        name: Pierre-Joseph Proudhon
+        tradition_tags: [anarchist, mutualism, federalism]
+      - thinker_id: mikhail-bakunin
+        name: Mikhail Bakunin
+        tradition_tags: [anarchist, anti-statism, revolutionary-federalism]
+      - thinker_id: errico-malatesta
+        name: Errico Malatesta
+        tradition_tags: [anarchist, organization, free-association]
+      - thinker_id: voltairine-de-cleyre
+        name: Voltairine de Cleyre
+        tradition_tags: [anarchist, feminist-autonomy, anti-authoritarian-ethics]
+      - thinker_id: colin-ward
+        name: Colin Ward
+        tradition_tags: [anarchist, everyday-anarchy, mutual-aid]
+      - thinker_id: dean-spade
+        name: Dean Spade
+        tradition_tags: [abolitionist, mutual-aid, anti-carceral]
+      - thinker_id: ruth-wilson-gilmore
+        name: Ruth Wilson Gilmore
+        tradition_tags: [abolitionist, organized-abandonment, anti-carceral]
+      - thinker_id: leanne-betasamosake-simpson
+        name: Leanne Betasamosake Simpson
+        tradition_tags: [indigenous-resurgence, land-based-governance, refusal]
+      - thinker_id: glen-coulthard
+        name: Glen Coulthard
+        tradition_tags: [indigenous-resurgence, recognition-critique, grounded-normativity]
+      - thinker_id: audra-simpson
+        name: Audra Simpson
+        tradition_tags: [indigenous-resurgence, refusal, sovereignty]
+      - thinker_id: silvia-federici
+        name: Silvia Federici
+        tradition_tags: [feminist-autonomy, commons, reproductive-labor]
+candidate_pool:
+  status: preserve-for-future-waves
+  purpose: Larger candidate pool from planning discussion, retained so later corpus waves are not lost.
+  thinkers:
+    - thinker_id: martha-nussbaum
+      name: Martha Nussbaum
+      tradition_tags: [capabilities, flourishing, dignity]
+    - thinker_id: charles-taylor
+      name: Charles Taylor
+      tradition_tags: [recognition, authenticity, situated-selfhood]
+    - thinker_id: frantz-fanon
+      name: Frantz Fanon
+      tradition_tags: [anti-colonial, liberation, recognition]
+    - thinker_id: w-e-b-du-bois
+      name: W. E. B. Du Bois
+      tradition_tags: [double-consciousness, democratic-agency, racialized-legibility]
+    - thinker_id: bell-hooks
+      name: bell hooks
+      tradition_tags: [liberatory-pedagogy, feminist-autonomy, love]
+    - thinker_id: iris-marion-young
+      name: Iris Marion Young
+      tradition_tags: [structural-injustice, democracy, responsibility]
+    - thinker_id: nancy-fraser
+      name: Nancy Fraser
+      tradition_tags: [recognition, redistribution, representation]
+    - thinker_id: axel-honneth
+      name: Axel Honneth
+      tradition_tags: [recognition, self-realization]
+    - thinker_id: jean-jacques-rousseau
+      name: Jean-Jacques Rousseau
+      tradition_tags: [collective-autonomy, general-will, civic-formation]
+    - thinker_id: alexis-de-tocqueville
+      name: Alexis de Tocqueville
+      tradition_tags: [association, democratic-habits, local-self-government]
+    - thinker_id: john-dewey
+      name: John Dewey
+      tradition_tags: [democracy, experimentalism, education]
+    - thinker_id: c-b-macpherson
+      name: C. B. Macpherson
+      tradition_tags: [possessive-individualism, democratic-theory]
+    - thinker_id: jurgen-habermas
+      name: Jurgen Habermas
+      tradition_tags: [communicative-action, deliberative-democracy, legitimacy]
+    - thinker_id: sheldon-wolin
+      name: Sheldon Wolin
+      tradition_tags: [fugitive-democracy, managed-democracy, political-action]
+    - thinker_id: aristotle
+      name: Aristotle
+      tradition_tags: [flourishing, praxis, virtue, premodern]
+    - thinker_id: stoics
+      name: The Stoics
+      tradition_tags: [inner-freedom, self-command, premodern]
+    - thinker_id: baruch-spinoza
+      name: Baruch Spinoza
+      tradition_tags: [affect, freedom, collective-power]
+    - thinker_id: g-w-f-hegel
+      name: G. W. F. Hegel
+      tradition_tags: [recognition, ethical-life, institutions]
+    - thinker_id: karl-marx
+      name: Karl Marx
+      tradition_tags: [alienation, material-conditions, emancipation]
+    - thinker_id: jennifer-nedelsky
+      name: Jennifer Nedelsky
+      tradition_tags: [relational-autonomy, law, judgment]
+    - thinker_id: marilyn-friedman
+      name: Marilyn Friedman
+      tradition_tags: [relational-autonomy, gender, moral-agency]
+    - thinker_id: catriona-mackenzie
+      name: Catriona Mackenzie
+      tradition_tags: [relational-autonomy, selfhood, responsibility]
+    - thinker_id: natalie-stoljar
+      name: Natalie Stoljar
+      tradition_tags: [feminist-autonomy, adaptive-preferences, socialization]
+    - thinker_id: susan-sherwin
+      name: Susan Sherwin
+      tradition_tags: [feminist-bioethics, relational-autonomy, oppression]
+    - thinker_id: eva-feder-kittay
+      name: Eva Feder Kittay
+      tradition_tags: [dependency, care, vulnerability]
+    - thinker_id: joan-tronto
+      name: Joan Tronto
+      tradition_tags: [care-ethics, democratic-care, institutions]
+    - thinker_id: carol-gilligan
+      name: Carol Gilligan
+      tradition_tags: [care-ethics, moral-development, voice]
+    - thinker_id: albert-borgmann
+      name: Albert Borgmann
+      tradition_tags: [technology, focal-practices, mediation]
+    - thinker_id: langdon-winner
+      name: Langdon Winner
+      tradition_tags: [artifacts-have-politics, technology, infrastructure]
+    - thinker_id: bruno-latour
+      name: Bruno Latour
+      tradition_tags: [actor-network-theory, mediation, non-human-actors]
+    - thinker_id: donna-haraway
+      name: Donna Haraway
+      tradition_tags: [situated-knowledge, cyborg, relational-ontology]
+    - thinker_id: gilbert-simondon
+      name: Gilbert Simondon
+      tradition_tags: [individuation, technical-objects]
+    - thinker_id: alexander-berkman
+      name: Alexander Berkman
+      tradition_tags: [anarchist, state-repression, prison, revolution]
+    - thinker_id: rudolf-rocker
+      name: Rudolf Rocker
+      tradition_tags: [anarcho-syndicalism, federalism, workers-self-organization]
+    - thinker_id: nestor-makhno
+      name: Nestor Makhno
+      tradition_tags: [anarchist, self-defense, peasant-self-organization]
+    - thinker_id: rosa-luxemburg
+      name: Rosa Luxemburg
+      tradition_tags: [libertarian-socialist, mass-strike, democratic-socialism]
+    - thinker_id: anton-pannekoek
+      name: Anton Pannekoek
+      tradition_tags: [councilist, workers-councils, self-management]
+    - thinker_id: c-l-r-james
+      name: C. L. R. James
+      tradition_tags: [self-activity, anti-colonial, direct-democracy]
+    - thinker_id: guy-debord
+      name: Guy Debord
+      tradition_tags: [situationist, spectacle, alienation]
+    - thinker_id: raoul-vaneigem
+      name: Raoul Vaneigem
+      tradition_tags: [situationist, everyday-life, refusal]
+    - thinker_id: miguel-abensour
+      name: Miguel Abensour
+      tradition_tags: [democracy-against-the-state, insurgent-democracy]
+    - thinker_id: jacques-ranciere
+      name: Jacques Ranciere
+      tradition_tags: [dissensus, equality, anti-authoritarian-democracy]
+    - thinker_id: rebecca-solnit
+      name: Rebecca Solnit
+      tradition_tags: [mutual-aid, disaster-response, collective-agency]
+    - thinker_id: angela-davis
+      name: Angela Davis
+      tradition_tags: [abolition-democracy, feminism, collective-liberation]
+    - thinker_id: lorenzo-komboa-ervin
+      name: Lorenzo Kom'boa Ervin
+      tradition_tags: [black-anarchism, community-self-defense, anti-authoritarian]
+    - thinker_id: ashanti-alston
+      name: Ashanti Alston
+      tradition_tags: [black-anarchism, movement-practice, autonomy]
+    - thinker_id: lucy-parsons
+      name: Lucy Parsons
+      tradition_tags: [anarchist, labor-radicalism, state-repression]
+    - thinker_id: taiaiake-alfred
+      name: Taiaiake Alfred
+      tradition_tags: [indigenous-resurgence, decolonization, beyond-recognition]
+    - thinker_id: vine-deloria-jr
+      name: Vine Deloria Jr.
+      tradition_tags: [indigenous-sovereignty, place, colonial-institutions]
+    - thinker_id: mujeres-libres-lucia-sanchez-saornil
+      name: Mujeres Libres / Lucia Sanchez Saornil
+      tradition_tags: [feminist-anarchism, education, worker-autonomy]
+    - thinker_id: maria-mies
+      name: Maria Mies
+      tradition_tags: [feminist-autonomy, subsistence, patriarchy-and-accumulation]
+    - thinker_id: starhawk
+      name: Starhawk
+      tradition_tags: [ecofeminism, horizontal-organizing, consensus]
+    - thinker_id: judith-butler
+      name: Judith Butler
+      tradition_tags: [assembly, precarity, performativity]
+    - thinker_id: lewis-mumford
+      name: Lewis Mumford
+      tradition_tags: [technology, megamachine, democratic-technics]
+    - thinker_id: jacques-ellul
+      name: Jacques Ellul
+      tradition_tags: [technique, technological-society, autonomy]
+    - thinker_id: ursula-franklin
+      name: Ursula Franklin
+      tradition_tags: [technology, prescriptive-technologies, holistic-technologies]
+concepts:
+  - concept_id: compiled-knowledge-infrastructure
+    status: defined-in-stack-lexicon
+    stack_reference: ../../stack/LEXICON.md
+  - concept_id: autonomy
+    status: seeded
+    page: wiki/concepts/autonomy.md
+  - concept_id: heteronomy
+    status: seeded
+    page: wiki/concepts/heteronomy.md
+  - concept_id: self-institution
+    status: planned
+  - concept_id: social-imaginary
+    status: planned
+  - concept_id: mutual-aid
+    status: seeded
+    page: wiki/concepts/mutual-aid.md
+  - concept_id: state-legibility
+    status: seeded
+    page: wiki/concepts/state-legibility.md
+  - concept_id: convivial-tools
+    status: seeded
+    page: wiki/concepts/convivial-tools.md
+  - concept_id: public-freedom
+    status: seeded
+    page: wiki/concepts/public-freedom.md
+  - concept_id: moral-autonomy
+    status: seeded
+    page: wiki/concepts/moral-autonomy.md
+  - concept_id: negative-liberty
+    status: seeded
+    page: wiki/concepts/negative-liberty.md
+  - concept_id: positive-liberty
+    status: seeded
+    page: wiki/concepts/positive-liberty.md
+  - concept_id: subjectivation
+    status: seeded
+    page: wiki/concepts/subjectivation.md
+tensions:
+  - tension_id: autonomy-vs-heteronomy
+    status: seeded
+    page: wiki/tensions/autonomy-vs-heteronomy.md
+  - tension_id: self-rule-vs-institution
+    status: planned
+  - tension_id: legibility-vs-autonomy
+    status: seeded
+    page: wiki/tensions/legibility-vs-autonomy.md
+  - tension_id: tool-use-vs-tool-dependence
+    status: seeded
+    page: wiki/tensions/tool-use-vs-tool-dependence.md
+  - tension_id: private-autonomy-vs-public-action
+    status: seeded
+    page: wiki/tensions/private-autonomy-vs-public-action.md
+  - tension_id: moral-autonomy-vs-social-conditions
+    status: seeded
+    page: wiki/tensions/moral-autonomy-vs-social-conditions.md
+  - tension_id: capacity-building-vs-coercive-liberation
+    status: seeded
+    page: wiki/tensions/capacity-building-vs-coercive-liberation.md
+  - tension_id: bureaucracy-vs-autonomy
+    status: seeded
+    page: wiki/tensions/bureaucracy-vs-autonomy.md
+  - tension_id: cooperation-vs-coercion
+    status: seeded
+    page: wiki/tensions/cooperation-vs-coercion.md

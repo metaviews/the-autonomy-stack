@@ -1,0 +1,54 @@
+index_id: stack-layers
+title: Autonomy Stack Layers
+status: draft
+source_doc: ../00-overview.md
+layers:
+  - layer_id: L1
+    name: Material Base
+    frame: Infrastructure
+    core_question: What material conditions make agency possible?
+    source_anchor: "Layer 1: Material Base (Infrastructure)"
+    primary_docs:
+      - ../00-overview.md
+      - ../modules/food-power.md
+    agentic_governance_relevance: Agents depend on compute, energy, network access, and infrastructure ownership; agents may also manage material systems.
+  - layer_id: L2
+    name: Commons & Institutions
+    core_question: What structures sustain collective agency, and what makes them vulnerable to capture?
+    source_anchor: "Layer 2: Commons & Institutions"
+    primary_docs:
+      - ../00-overview.md
+      - ../modules/commons-institutional-governance.md
+    agentic_governance_relevance: Agent ecosystems can become de facto commons while being enclosed, captured, or governed by providers.
+  - layer_id: L3
+    name: Legibility & Metrics
+    core_question: Who controls what can be seen and contested?
+    source_anchor: "Layer 3: Legibility & Metrics"
+    primary_docs:
+      - ../00-overview.md
+      - ../agentic-governance-annex.md
+    agentic_governance_relevance: Agent outputs, reasoning, metrics, and optimization targets must be legible enough to challenge.
+  - layer_id: L4
+    name: Decision Systems & Authority
+    core_question: How is agency exercised in binding decisions, and can those decisions be contested, revised, or reversed?
+    source_anchor: "Layer 4: Decision Systems & Authority"
+    primary_docs:
+      - ../00-overview.md
+      - ../agentic-governance-annex.md
+    agentic_governance_relevance: Delegation, contestability, reversibility, and human override are primarily Layer 4 concerns.
+  - layer_id: L5
+    name: Knowledge & Intelligence
+    core_question: How does knowledge form, evolve, and remain open to revision?
+    source_anchor: "Layer 5: Knowledge & Intelligence"
+    primary_docs:
+      - ../00-overview.md
+      - ../modules/epistemic-coordination.md
+    agentic_governance_relevance: Agents accumulate epistemic authority through synthesis, retrieval, recommendation, and repeated use.
+  - layer_id: L6
+    name: Human Capacity & Care
+    core_question: What relational conditions make sustained collective agency possible?
+    source_anchor: "Layer 6: Human Capacity & Care"
+    primary_docs:
+      - ../00-overview.md
+      - ../modules/care-based-infrastructure.md
+    agentic_governance_relevance: Agent substitution can erode care, autonomy, review capacity, and steward wellbeing.

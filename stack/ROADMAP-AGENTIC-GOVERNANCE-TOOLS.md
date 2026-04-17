@@ -34,13 +34,15 @@ Create the minimum structure agents need to use the Stack accurately.
 - Define a shared vocabulary for agentic governance: delegation, authority-bearing output, reversibility, contestability, stewardship, reasoning trace, emergent authority.
 - Create machine-readable indexes for patterns, layers, and provocations without replacing the prose documents.
 - Establish file and schema conventions for future tools.
+- Establish **Compiled Knowledge Infrastructure** for source-derived knowledge bases: immutable raw sources, agent-maintained wiki pages, and schema conventions that separate source claims, interpretation, and Stack application.
 
 **Outputs:**
 
 - `stack/tools/` directory
-- `schemas/` or `stack/schemas/` directory
+- `stack/indexes/` directory
 - Pattern and provocation indexes in JSON or YAML
 - A short `stack/tools/README.md` explaining how agents should use the tools
+- `sources/philosophers/` as the first compiled knowledge corpus focused on autonomy
 
 **Review question:** Can an agent identify which Stack concepts apply to a governance situation without inventing structure that is not in the repo?
 
@@ -120,6 +122,7 @@ Make the tools usable inside agent workflows.
 * **Governance vs compliance.** The tools should not become a box-checking system that simulates accountability while leaving authority untouched.
 * **Speed vs contestability.** Agents can apply protocols quickly, but some harms still require slowing down or refusing delegation.
 * **Open-source propagation.** If the Stack becomes useful to agents, it may also be reused outside its intended normative frame.
+* **Compilation vs. interpretation.** Agent-maintained knowledge bases can make synthesis durable, but they can also make interpretation look like source fact. Raw sources must remain inspectable, and compiled pages must distinguish source claim, interpretive synthesis, and Stack application.
 
 ---
 
@@ -135,6 +138,13 @@ The first practical milestone is a small, coherent **Agentic Governance Toolkit*
 
 This set is small enough to build now and foundational enough to shape later schemas, validation scripts, and agent-operable protocols.
 
+The second near-term milestone is the **Philosopher Autonomy Corpus** in `sources/philosophers/`:
+
+1. Preserve raw source records separately from compiled wiki pages.
+2. Maintain thinker, concept, and tension pages through agent-readable schema conventions.
+3. Seed autonomy-focused thinkers beginning with Cornelius Castoriadis.
+4. Use the corpus to test Compiled Knowledge Infrastructure as a Stack element.
+
 ---
 
 ## Relationship to Existing Documents
@@ -146,5 +156,6 @@ This roadmap builds directly on:
 - `stack/PROVOCATIONS.md`
 - `stack/LEXICON.md`
 - `stack/design-toolkit.md`
+- `sources/philosophers/`
 
 It does not replace the completed roadmap in `stack/ROADMAP.md`. It begins the next iteration: from operational framework to agent-legible governance tooling.

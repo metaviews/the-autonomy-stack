@@ -49,6 +49,9 @@ This repository is both a workshop and a record.
 - `/stack/` practitioner documents
   [`entry.md`](stack/entry.md) — first-time reader orientation. [`design-toolkit.md`](stack/design-toolkit.md) — diagnostic questions by layer for practitioners. [`pattern-quick-reference.md`](stack/pattern-quick-reference.md) — all 20 patterns in 1–2 sentences. [`agentic-governance-annex.md`](stack/agentic-governance-annex.md) — cross-cutting analysis of governance under agentic conditions. [`tools/`](stack/tools/) — agentic governance toolkit for agent-facing diagnostics. [`cases/`](stack/cases/) — completed case studies.
 
+- `/stack/indexes/`
+  Lightweight YAML indexes for agents navigating layers, patterns, and provocations. These route agents to source documents rather than replacing them.
+
 - `/patterns/`
   Twenty recurring governance dynamics distilled from practice. Patterns are discovered through the *Metaviews: Future of Authority* newsletter and stabilized here as reusable abstractions.
 
