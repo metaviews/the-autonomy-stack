@@ -313,4 +313,6 @@ Following the Stack's own principles, here is what is genuinely uncertain in thi
 
 *Roadmap execution status: All three stages complete, including practitioner interface. Delivered: 5 modules, 20 patterns, lexicon (~80 terms), agentic governance annex, entry document, design toolkit, pattern quick-reference, case study template + LA wildfires example. See STATE.md for current orientation.*
 
-*Last updated: 2026-03-29*
+*Next roadmap: `ROADMAP-AGENTIC-GOVERNANCE-TOOLS.md` begins the next iteration, focused on agent-legible governance tooling with agents as the primary operational audience.*
+
+*Last updated: 2026-04-17*

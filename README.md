@@ -47,7 +47,7 @@ This repository is both a workshop and a record.
   Five completed modules applying the Stack to specific domains: [Food Power](stack/modules/food-power.md), [Care Infrastructure](stack/modules/care-based-infrastructure.md), [Epistemic Coordination](stack/modules/epistemic-coordination.md), [Commons & Institutional Governance](stack/modules/commons-institutional-governance.md), [Distributed Resistance](stack/modules/distributed-resistance.md).
 
 - `/stack/` practitioner documents
-  [`entry.md`](stack/entry.md) — first-time reader orientation. [`design-toolkit.md`](stack/design-toolkit.md) — diagnostic questions by layer for practitioners. [`pattern-quick-reference.md`](stack/pattern-quick-reference.md) — all 20 patterns in 1–2 sentences. [`agentic-governance-annex.md`](stack/agentic-governance-annex.md) — cross-cutting analysis of governance under agentic conditions. [`cases/`](stack/cases/) — completed case studies.
+  [`entry.md`](stack/entry.md) — first-time reader orientation. [`design-toolkit.md`](stack/design-toolkit.md) — diagnostic questions by layer for practitioners. [`pattern-quick-reference.md`](stack/pattern-quick-reference.md) — all 20 patterns in 1–2 sentences. [`agentic-governance-annex.md`](stack/agentic-governance-annex.md) — cross-cutting analysis of governance under agentic conditions. [`tools/`](stack/tools/) — agentic governance toolkit for agent-facing diagnostics. [`cases/`](stack/cases/) — completed case studies.
 
 - `/patterns/`
   Twenty recurring governance dynamics distilled from practice. Patterns are discovered through the *Metaviews: Future of Authority* newsletter and stabilized here as reusable abstractions.
@@ -71,7 +71,7 @@ You are invited to:
 
 The Autonomy Stack has completed its first full roadmap execution across three maturation stages. The reference architecture (v0.3) has been grounded in eighteen months of applied research. Twenty patterns are documented. Five modules are complete. A lexicon (~80 terms), agentic governance annex, and full practitioner interface are in place.
 
-See [`stack/STATE.md`](stack/STATE.md) for the current orientation snapshot.
+The next roadmap direction is agentic governance tooling: making the framework usable by agents that build from open-source materials while preserving human accountability and contestability. The first draft toolkit is in [`stack/tools/`](stack/tools/). See [`stack/ROADMAP-AGENTIC-GOVERNANCE-TOOLS.md`](stack/ROADMAP-AGENTIC-GOVERNANCE-TOOLS.md) and [`stack/STATE.md`](stack/STATE.md) for the current orientation snapshot.
 
 The work is alive, unfinished, and deliberately open. Its value lies not in arriving at certainty, but in cultivating clarity, shared language, and the capacity to act together under conditions of uncertainty.
 

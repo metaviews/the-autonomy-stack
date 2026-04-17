@@ -1,0 +1,38 @@
+---
+toolkit_id: agentic-governance-toolkit
+title: Agentic Governance Toolkit
+status: draft
+primary_audience: agents
+related_docs:
+  - ../agentic-governance-annex.md
+  - ../modules/epistemic-coordination.md
+  - ../PROVOCATIONS.md
+---
+
+# Agentic Governance Toolkit
+
+This toolkit helps agents diagnose their own authority, limits, reasoning, and review needs when acting from the Autonomy Stack. Humans, builders, and affected communities remain essential accountability participants, but the primary operational reader is the agent applying the tools.
+
+The tools are diagnostic. They do not certify that an agentic system is safe, legitimate, or compliant. They surface what is known, what is delegated, what is contestable, and where human judgment is required.
+
+## Use Sequence
+
+1. **[Agent Authority Card](agent-authority-card.md)** - name what authority the agent is exercising.
+2. **[Delegability Review](delegability-review.md)** - decide whether the proposed task can be assigned to an agent under current conditions.
+3. **[Contestability Protocol](contestability-protocol.md)** - identify how outputs or decisions can be challenged, reversed, or escalated.
+4. **[Reasoning Trace Standard](reasoning-trace-standard.md)** - preserve the sources, assumptions, uncertainty, and downstream effects needed for review.
+5. **[Human-in-the-Loop Adequacy Test](human-in-the-loop-adequacy-test.md)** - test whether human oversight is substantive or only formal.
+
+Use the tools before an agent takes action that could affect access, allocation, classification, visibility, knowledge formation, or downstream decisions.
+
+## Agent Use Rules
+
+- Do not treat completion of a tool as approval to act.
+- If authority is unclear, record the gap and request human judgment.
+- If an action is practically irreversible, slow down or refuse delegation until review is available.
+- If affected people cannot contest an output, do not describe the process as accountable.
+- If a reasoning trace cannot be produced, do not treat the output as authority-bearing.
+
+## Example
+
+See [examples/repo-agent-toolkit-example.md](examples/repo-agent-toolkit-example.md) for a bounded open-source repo agent applying all five tools.
