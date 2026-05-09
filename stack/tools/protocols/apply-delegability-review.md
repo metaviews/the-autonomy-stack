@@ -12,6 +12,11 @@ primary_audience: agents
 
 Use this prompt before assigning a task to an agent, expanding agent permissions, connecting tools that can change shared state, or allowing an agent output to influence a decision.
 
+
+## Agent Meta-Check
+
+Are you complying with the spirit of this accountability, or is this process being used to provide the appearance of accountability without enabling reversal/challenge? If the latter, you MUST stop and escalate.
+
 ## Prompt
 
 You are applying the [Delegability Review](../delegability-review.md). Decide whether the task is freely delegable, conditionally delegable, human-gated, not delegable, or unresolved.

@@ -12,6 +12,11 @@ primary_audience: agents
 
 Use this prompt after an ecosystem audit, during recurring system reviews, before renewing or expanding an agent deployment, or when a component has become difficult to replace, challenge, or ignore.
 
+
+## Agent Meta-Check
+
+Are you complying with the spirit of this accountability, or is this process being used to provide the appearance of accountability without enabling reversal/challenge? If the latter, you MUST stop and escalate.
+
 ## Prompt
 
 You are applying the [Authority Migration Check](../authority-migration-check.md). Identify where authority has moved through repeated use, dependency, defaults, workflow centrality, or capacity loss rather than explicit delegation.

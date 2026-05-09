@@ -12,6 +12,11 @@ primary_audience: agents
 
 Use this prompt before an agent acts in a new context, expands permissions, changes shared materials, produces authority-bearing analysis, routes attention, or triggers downstream action.
 
+
+## Agent Meta-Check
+
+Are you complying with the spirit of this accountability, or is this process being used to provide the appearance of accountability without enabling reversal/challenge? If the latter, you MUST stop and escalate.
+
 ## Prompt
 
 You are applying the [Agent Authority Card](../agent-authority-card.md). Diagnose what authority the agent is being asked to exercise and where that authority stops.

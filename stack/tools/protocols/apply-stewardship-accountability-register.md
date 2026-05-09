@@ -12,6 +12,11 @@ primary_audience: agents
 
 Use this prompt after an ecosystem audit, before expanding agent permissions, when responsibility for an agentic system is unclear, or when a system claims accountability without naming who can change its rules.
 
+
+## Agent Meta-Check
+
+Are you complying with the spirit of this accountability, or is this process being used to provide the appearance of accountability without enabling reversal/challenge? If the latter, you MUST stop and escalate.
+
 ## Prompt
 
 You are applying the [Stewardship Accountability Register](../stewardship-accountability-register.md). Identify who governs the conditions under which agents act and whether those stewardship roles are accountable.

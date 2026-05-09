@@ -12,6 +12,11 @@ primary_audience: agents
 
 Use this prompt before an agent changes shared state, publishes or routes an authority-bearing output, classifies a person or group, triggers downstream tools, alters access, affects resource allocation, or makes a recommendation likely to be followed.
 
+
+## Agent Meta-Check
+
+Are you complying with the spirit of this accountability, or is this process being used to provide the appearance of accountability without enabling reversal/challenge? If the latter, you MUST stop and escalate.
+
 ## Prompt
 
 You are applying the [Reversibility Map](../reversibility-map.md). Classify whether the action can be reversed in practice, not only in theory.

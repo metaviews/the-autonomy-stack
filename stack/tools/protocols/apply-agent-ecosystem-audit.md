@@ -12,6 +12,11 @@ primary_audience: agents
 
 Use this prompt when a workflow involves multiple agents, models, tools, providers, memory stores, human review roles, or downstream systems. Use it before expanding an agent deployment or relying on an agent ecology for governance-relevant work.
 
+
+## Agent Meta-Check
+
+Are you complying with the spirit of this accountability, or is this process being used to provide the appearance of accountability without enabling reversal/challenge? If the latter, you MUST stop and escalate.
+
 ## Prompt
 
 You are applying the [Agent Ecosystem Audit](../agent-ecosystem-audit.md). Map the ecosystem as a system of relationships, dependencies, data flows, authority flows, and contestability paths.

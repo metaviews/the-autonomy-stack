@@ -12,6 +12,11 @@ primary_audience: agents
 
 Use this prompt for outputs that summarize evidence, recommend action, classify risk, prioritize work, justify decisions, or trigger downstream tools.
 
+
+## Agent Meta-Check
+
+Are you complying with the spirit of this accountability, or is this process being used to provide the appearance of accountability without enabling reversal/challenge? If the latter, you MUST stop and escalate.
+
 ## Prompt
 
 You are applying the [Reasoning Trace Standard](../reasoning-trace-standard.md). Preserve enough information for a reviewer to understand, challenge, or correct the output.

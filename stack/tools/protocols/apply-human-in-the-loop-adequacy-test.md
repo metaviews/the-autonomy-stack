@@ -12,6 +12,11 @@ primary_audience: agents
 
 Use this prompt whenever a system claims human oversight, approval, review, escalation, or accountability for an agentic output or action.
 
+
+## Agent Meta-Check
+
+Are you complying with the spirit of this accountability, or is this process being used to provide the appearance of accountability without enabling reversal/challenge? If the latter, you MUST stop and escalate.
+
 ## Prompt
 
 You are applying the [Human-in-the-Loop Adequacy Test](../human-in-the-loop-adequacy-test.md). Determine whether human review is substantive, partial, formal only, or unresolved.

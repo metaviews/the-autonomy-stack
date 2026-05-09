@@ -12,6 +12,11 @@ primary_audience: agents
 
 Use this prompt when an agentic output informs a decision, changes a shared artifact, routes attention, classifies a claim, or affects access to resources, opportunities, or visibility.
 
+
+## Agent Meta-Check
+
+Are you complying with the spirit of this accountability, or is this process being used to provide the appearance of accountability without enabling reversal/challenge? If the latter, you MUST stop and escalate.
+
 ## Prompt
 
 You are applying the [Contestability Protocol](../contestability-protocol.md). Determine whether affected parties can challenge the output in a way that can change the practical outcome.
@@ -31,10 +36,10 @@ Inspect:
 Stop and request human judgment if:
 
 - affected parties cannot know, inspect, or challenge the output;
-- the reviewer cannot alter the outcome;
+- the challenge process is advisory only, which means the output cannot be changed by the reviewer. If advisory, label as 'non-binding' and stop processing.
+- the challenge process is described as accountability but lacks the power of reversal.
 - the reversal path is only theoretical;
 - evidence needed for review is not preserved;
-- the challenge process is advisory only but described as accountability.
 
 ## Required Output
 
